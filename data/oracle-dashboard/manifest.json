@@ -34,7 +34,7 @@
     "bsaScope": "OBT/EST/IST/JBT from the BSA raw export",
     "bsaWeightSource": "DM_SALES.SP400I bsa_wt, used only for weight-basis reference",
     "bsaSourceMode": "auto",
-    "bookingPerformanceSource": "ODS_ICC.M_SA003I booking performance + DM_SALES.DMSAB_102DS ICC Lifting closing actual for B/L TEU/CM1; no local BL Excel total override; W26 OBT weekly ICC screen reference patched after source reconciliation",
+    "bookingPerformanceSource": "ODS_ICC.M_SA003I booking performance + DM_SALES.DMSAB_102DS ICC Lifting closing actual for B/L TEU/CM1; no local BL Excel total override; W26 OBT weekly ICC screen reference patched after source reconciliation; Tableau D_SA001.BL source logic checked: M_SA003I KND_CD=02/06 revised BL layer is required, but sandbox latest BASC_DT currently exposes KND_CD=03 only, so W26 remains reconciled by checked ICC/Tableau reference.",
     "bookingRouteChainSource": "DW_SALES.SP002S LEG_SEQ by BKG_NO; route1-route4 from RTE_CD, ts1-ts3 from later-leg POL_PORT_CD",
     "bookingRouteChainWindow": {
       "start": "20260626",
@@ -51,12 +51,12 @@
       "routeChainWindowStart": "20260626",
       "routeChainWindowEnd": "20260810"
     },
-    "iccBlActualSourceMode": "dmsab",
+    "iccBlActualSourceMode": "tableau_bl",
     "iccActualSource": "DM_SALES.DMSAB_102DS",
     "iccActualScope": "DM_SALES.DMSAB_102DS ICC Lifting closing actual / CLOS_CAT_CD='02' / FRT_PNC_CD IN ('P','C') / BIZ_TEAM_CAT_CD O/E/I/J",
-    "iccActualDateBasis": "ICC Lifting Performance Analysis Departure Date = DMSAB_102DS.PFM_DT",
-    "iccActualWeekBasis": "ICC Lifting Performance Analysis week = DMSAB_102DS.PFM_YM_YWK",
-    "iccActualMonthBasis": "DMSAB_102DS.PFM_YM; checked weekly ICC screen references are overlaid where defined, and optional full Excel/reference modes remain disabled unless KMTC_ICC_BL_ACTUAL_SOURCE_MODE is explicitly set",
+    "iccActualDateBasis": "Fallback DMSAB_102DS.PFM_DT because sandbox M_SA003I lacks KND_CD=02/06 BL layer",
+    "iccActualWeekBasis": "Fallback DMSAB_102DS.PFM_YM_YWK; Tableau target basis is RVSD_DPO_YWEK",
+    "iccActualMonthBasis": "Fallback DMSAB_102DS.PFM_YM with checked W26 ICC/Tableau reference overlay until sandbox D_SA001.BL layer is available",
     "iccActualTeamBasis": "BIZ_TEAM_CAT_CD O/E/I/J mapped to OBT/EST/IST/JBT",
     "iccActualSourceUpdatedAt": "2026-07-06 05:00:47",
     "iccBlOogDeadSourceMode": "split_only",
@@ -226,7 +226,7 @@
     },
     "iccBlWeeklyReference": {
       "applied": true,
-      "basis": "ICC Lifting Performance Analysis weekly screen reference applied to W26 OBT after sandbox DMSAB/SP007 mismatch was confirmed",
+      "basis": "Checked ICC/Tableau W26 reference retained because sandbox M_SA003I lacks Tableau D_SA001.BL KND_CD=02/06 layer",
       "week": "20260626",
       "team": "OBT",
       "target": {
@@ -234,7 +234,10 @@
         "blCm1": 15854047.0,
         "blFreight": 22213644.0,
         "freightTotal": 22213644.0,
-        "blExpense": 6359597.0
+        "blExpense": 6359597.0,
+        "box20": 6748,
+        "box40All": 7583,
+        "box45": 17
       },
       "before": {
         "blTeu": 21003.0,
@@ -253,7 +256,7 @@
         "blOogDeadTeu": 314.9999999999999
       },
       "missingLaneKeys": 84,
-      "patchedAt": "2026-07-06T16:33:36+09:00"
+      "patchedAt": "2026-07-06T18:19:16+09:00"
     },
     "iccMonthlyLaneResidualSync": {
       "applied": true,
@@ -303,7 +306,21 @@
         }
       },
       "patchedAt": "2026-07-06T16:41:52+09:00"
-    }
+    },
+    "iccActualResolvedSourceMode": "dmsab_fallback",
+    "tableauBlSourceAttempted": true,
+    "tableauBlSourceFallbackReason": "Sandbox ODS_ICC.M_SA003I currently contains no KND_CD='02' BL layer for latest BASC_DT=20260706; Tableau D_SA001.BL published datasource uses KND_CD='02' for BL TEU/FRT/CM1 and KND_CD='06' for target measures.",
+    "tableauBlLatestBascDt": "20260706",
+    "tableauBlKndDiagnostics": [
+      {
+        "knd_cd": "03",
+        "row_count": 18371,
+        "teu": 91779
+      }
+    ],
+    "tableauBlDatasource": "D_SA001.BL",
+    "tableauBlKndBasis": "KND_CD='02' for BL TEU/FRT/CM1; revised schedule uses RVSD_DPO_DT/RVSD_DPO_YWEK",
+    "sourceAuditPatchedAt": "2026-07-06T18:19:16+09:00"
   },
   "periodOptions": [
     {
