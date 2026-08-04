@@ -20,9 +20,45 @@
 }
 
 .authGateBrand {
+  position: relative;
   padding: 26px 30px 23px;
   color: #fff;
   background: linear-gradient(135deg, #0759b2 0%, #063f82 100%);
+}
+
+.authGateLanguage {
+  position: absolute;
+  top: 19px;
+  right: 24px;
+  display: inline-flex;
+  padding: 2px;
+  border: 1px solid rgba(255, 255, 255, 0.38);
+  border-radius: 999px;
+  background: rgba(0, 31, 70, 0.24);
+}
+
+.authGateLanguage button {
+  min-width: 34px;
+  height: 24px;
+  padding: 0 8px;
+  border: 0;
+  border-radius: 999px;
+  background: transparent;
+  color: rgba(255, 255, 255, 0.72);
+  font: inherit;
+  font-size: 10px;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+.authGateLanguage button.active {
+  background: #fff;
+  color: #07539f;
+}
+
+.authGateLanguage button:focus-visible {
+  outline: 2px solid #fff;
+  outline-offset: 2px;
 }
 
 .authGateBrand small {
@@ -135,6 +171,7 @@
 @media (max-width: 520px) {
   .authGateShell { padding: 14px; }
   .authGateBrand { padding: 22px 22px 20px; }
+  .authGateLanguage { top: 15px; right: 17px; }
   .authGateBrand h1 { font-size: 20px; }
   .authGateBody { padding: 24px 22px 26px; }
 }

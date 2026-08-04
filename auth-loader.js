@@ -6,6 +6,44 @@ const AUTH_USER_KEY = 'guser';
 const RETURN_PATH_KEY = 'obtReturnPath';
 const AUTH_REDIRECT_PATH = '/kmtc-3w-dashboard-web/';
 const PROTECTED_INDEX_FILE = 'protected-assets.json';
+const LANGUAGE_KEY = 'lang';
+
+const LOGIN_COPY = Object.freeze({
+  ko: Object.freeze({
+    pageTitle: 'KMTC Integrated Dashboard · 로그인',
+    dashboardTitle: '통합 대시보드',
+    heading: '회사 계정 로그인이 필요합니다',
+    description: 'KMTC 회사 Google 계정(@{domain})으로<br />로그인한 사용자만 확인할 수 있습니다.',
+    checking: '로그인 상태를 확인하고 있습니다.',
+    signIn: 'Google 계정으로 로그인',
+    footnote: '업무용 데이터는 인증 후 회사 공유 Drive에서 안전하게 불러옵니다.',
+    languageControl: '로그인 화면 언어',
+    companyOnlyError: '@{domain} 회사 계정만 접근할 수 있습니다.',
+    sessionExpiredError: '로그인 세션이 만료되었습니다. 다시 로그인해 주세요.',
+    protectedIndexError: '보호 자산 목록을 불러오지 못했습니다 ({status}).',
+    protectedIndexFormatError: '보호 자산 목록 형식이 올바르지 않습니다.',
+    noSessionError: 'Google 로그인 세션이 없습니다.',
+    protectedAppError: '보호된 앱을 불러오지 못했습니다 ({status}).',
+    accessError: '로그인 또는 데이터 접근 권한을 확인하지 못했습니다.'
+  }),
+  en: Object.freeze({
+    pageTitle: 'KMTC Integrated Dashboard · Login',
+    dashboardTitle: 'Integrated Dashboard',
+    heading: 'Company account sign-in required',
+    description: 'Sign in with your KMTC Google account (@{domain})<br />to view this dashboard.',
+    checking: 'Checking your sign-in status.',
+    signIn: 'Sign in with Google',
+    footnote: 'Business data is securely loaded from the company shared Drive after authentication.',
+    languageControl: 'Login language',
+    companyOnlyError: 'Access is restricted to @{domain} company accounts.',
+    sessionExpiredError: 'Your sign-in session has expired. Please sign in again.',
+    protectedIndexError: 'Unable to load the protected asset index ({status}).',
+    protectedIndexFormatError: 'The protected asset index format is invalid.',
+    noSessionError: 'No Google sign-in session is available.',
+    protectedAppError: 'Unable to load the protected application ({status}).',
+    accessError: 'Unable to verify your sign-in or data access permission.'
+  })
+});
 
 const nativeFetch = window.fetch.bind(window);
 const root = document.getElementById('root');
@@ -13,6 +51,33 @@ const loaderUrl = new URL(import.meta.url);
 const baseUrl = new URL('./', loaderUrl);
 const isLocalPreview = ['localhost', '127.0.0.1'].includes(window.location.hostname);
 const useProtectedDrive = !isLocalPreview || new URLSearchParams(location.search).has('protectedDrive');
+
+function preferredLanguage() {
+  try {
+    return localStorage.getItem(LANGUAGE_KEY) === 'en' ? 'en' : 'ko';
+  } catch (_) {
+    return 'ko';
+  }
+}
+
+function loginCopy(key, params = {}) {
+  const language = preferredLanguage();
+  let value = LOGIN_COPY[language]?.[key] ?? LOGIN_COPY.ko[key] ?? key;
+  Object.entries(params).forEach(([name, replacement]) => {
+    value = value.replaceAll(`{${name}}`, String(replacement));
+  });
+  return value;
+}
+
+function savePreferredLanguage(language) {
+  const normalized = language === 'en' ? 'en' : 'ko';
+  try {
+    localStorage.setItem(LANGUAGE_KEY, normalized);
+  } catch (_) {
+    // The current page can still re-render even when browser storage is unavailable.
+  }
+  document.documentElement.lang = normalized;
+}
 
 function googleIcon() {
   return `
@@ -25,26 +90,40 @@ function googleIcon() {
 }
 
 function renderGate({ checking = false, error = '' } = {}) {
-  document.title = 'KMTC Integrated Dashboard · Login';
+  const language = preferredLanguage();
+  savePreferredLanguage(language);
+  document.title = loginCopy('pageTitle');
   root.innerHTML = `
     <main class="authGateShell">
       <section class="authGateCard" aria-labelledby="authGateTitle">
         <header class="authGateBrand">
           <small>KMTC Integrated Dashboard</small>
-          <h1>통합 대시보드</h1>
+          <div class="authGateLanguage" role="group" aria-label="${escapeHtml(loginCopy('languageControl'))}">
+            <button type="button" data-auth-language="ko" class="${language === 'ko' ? 'active' : ''}" aria-pressed="${language === 'ko'}">한국</button>
+            <button type="button" data-auth-language="en" class="${language === 'en' ? 'active' : ''}" aria-pressed="${language === 'en'}">EN</button>
+          </div>
+          <h1>${loginCopy('dashboardTitle')}</h1>
         </header>
         <div class="authGateBody">
-          <h2 id="authGateTitle">회사 계정 로그인이 필요합니다</h2>
-          <p>KMTC 회사 Google 계정(@${ALLOWED_DOMAIN})으로<br />로그인한 사용자만 확인할 수 있습니다.</p>
+          <h2 id="authGateTitle">${loginCopy('heading')}</h2>
+          <p>${loginCopy('description', { domain: ALLOWED_DOMAIN })}</p>
           ${checking
-            ? '<div class="authGateStatus" role="status"><span class="authGateSpinner"></span>로그인 상태를 확인하고 있습니다.</div>'
-            : `<button class="authGateButton" id="companyLoginButton" type="button">${googleIcon()}<span>Google 계정으로 로그인</span></button>`}
+            ? `<div class="authGateStatus" role="status"><span class="authGateSpinner"></span>${loginCopy('checking')}</div>`
+            : `<button class="authGateButton" id="companyLoginButton" type="button">${googleIcon()}<span>${loginCopy('signIn')}</span></button>`}
           ${error ? `<p class="authGateError" role="alert">${escapeHtml(error)}</p>` : ''}
-          <p class="authGateFootnote">업무용 데이터는 인증 후 회사 공유 Drive에서 안전하게 불러옵니다.</p>
+          <p class="authGateFootnote">${loginCopy('footnote')}</p>
         </div>
       </section>
     </main>`;
   document.getElementById('companyLoginButton')?.addEventListener('click', startCompanyLogin);
+  document.querySelectorAll('[data-auth-language]').forEach((button) => {
+    button.addEventListener('click', () => {
+      const nextLanguage = button.dataset.authLanguage === 'en' ? 'en' : 'ko';
+      if (nextLanguage === language) return;
+      savePreferredLanguage(nextLanguage);
+      renderGate({ checking, error });
+    });
+  });
 }
 
 function escapeHtml(value) {
@@ -122,7 +201,7 @@ async function verifySession(token, storedUser) {
   const info = await response.json();
   const verified = info.verified_email === true || info.email_verified === true;
   if (!verified || !isAllowedUser(info)) {
-    throw new Error(`@${ALLOWED_DOMAIN} 회사 계정만 접근할 수 있습니다.`);
+    throw new Error(loginCopy('companyOnlyError', { domain: ALLOWED_DOMAIN }));
   }
   return {
     email: info.email,
@@ -138,10 +217,10 @@ async function loadProtectedIndex() {
     const indexUrl = new URL(PROTECTED_INDEX_FILE, baseUrl);
     protectedIndexPromise = nativeFetch(`${indexUrl}?t=${Date.now()}`, { cache: 'no-store' })
       .then(async (response) => {
-        if (!response.ok) throw new Error(`보호 자산 목록을 불러오지 못했습니다 (${response.status}).`);
+        if (!response.ok) throw new Error(loginCopy('protectedIndexError', { status: response.status }));
         const payload = await response.json();
         if (payload?.format !== 'kmtc-protected-assets-v1' || !payload?.appEntry?.fileId) {
-          throw new Error('보호 자산 목록 형식이 올바르지 않습니다.');
+          throw new Error(loginCopy('protectedIndexFormatError'));
         }
         return payload;
       })
@@ -164,7 +243,7 @@ async function fetchDriveFile(fileId, options = {}) {
   if (!token) {
     clearSession({ keepUser: true });
     location.reload();
-    throw new Error('Google 로그인 세션이 없습니다.');
+    throw new Error(loginCopy('noSessionError'));
   }
   const response = await nativeFetch(
     `https://www.googleapis.com/drive/v3/files/${encodeURIComponent(fileId)}?alt=media&t=${Date.now()}`,
@@ -215,7 +294,7 @@ async function loadApplication(index, user) {
   }
 
   const response = await fetchDriveFile(index.appEntry.fileId);
-  if (!response.ok) throw new Error(`보호된 앱을 불러오지 못했습니다 (${response.status}).`);
+  if (!response.ok) throw new Error(loginCopy('protectedAppError', { status: response.status }));
   const source = await response.blob();
   const moduleUrl = URL.createObjectURL(new Blob([source], { type: 'text/javascript' }));
   try {
@@ -238,7 +317,7 @@ async function bootstrap() {
     const user = await verifySession(token, storedUser);
     if (!user) {
       clearSession({ keepUser: true });
-      renderGate({ error: '로그인 세션이 만료되었습니다. 다시 로그인해 주세요.' });
+      renderGate({ error: loginCopy('sessionExpiredError') });
       return;
     }
     saveSession(token, user);
@@ -246,7 +325,7 @@ async function bootstrap() {
     await loadApplication(index, user);
   } catch (error) {
     clearSession({ keepUser: true });
-    renderGate({ error: error?.message || '로그인 또는 데이터 접근 권한을 확인하지 못했습니다.' });
+    renderGate({ error: error?.message || loginCopy('accessError') });
   }
 }
 
