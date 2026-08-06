@@ -1,6 +1,6 @@
 {
   "format": "kmtc-protected-assets-v1",
-  "generatedAt": "2026-08-06T17:17:20+0900",
+  "generatedAt": "2026-08-06T17:30:54+0900",
   "auth": {
     "provider": "google",
     "allowedDomain": "ekmtc.com"
@@ -8,9 +8,9 @@
   "driveFolderId": "1lccizv8st6zJ-1mFSAvHZlx5kF8dYH7r",
   "appEntry": {
     "fileId": "12rNnKMBtqF0G_zxeRsg7fg-uBh0CZnGf",
-    "size": 8443570,
-    "md5": "4a2c10e12892bf5c2524bac4ac1b0734",
-    "localPath": "assets/index-BuBeqLVM.js"
+    "size": 8962790,
+    "md5": "4eb2c715754e1af2b188eb5ce4829561",
+    "localPath": "assets/index-ChTmaYHM.js"
   },
   "files": {
     "data/oracle-dashboard/booking-intake.json.gz": {
@@ -81,7 +81,7 @@
     "data/oracle-dashboard/manifest.json": {
       "fileId": "1QJcoNha6sDJ83QGjAiOt86nOK-9atFC3",
       "size": 6306063,
-      "md5": "13df0f05dad75c8611e10694370efc11"
+      "md5": "db09d076fdb1dc0441542caa1e1b25d2"
     },
     "data/oracle-dashboard/months/202601.json.gz": {
       "fileId": "1h08J8HtdDSekpov4xZo4-DnjC57135rt",
@@ -120,8 +120,8 @@
     },
     "data/oracle-dashboard/months/202608.json.gz": {
       "fileId": "1oGAtcIydbqktIDVpDFMWkd6GwChPSLiv",
-      "size": 21282607,
-      "md5": "4d888b847e2832f1f01b0e54e6ba83d9"
+      "size": 21282385,
+      "md5": "c74d6f0dcd8059394df15fd271a3fc3b"
     },
     "data/oracle-dashboard/months/202609.json.gz": {
       "fileId": "1cezeOOtXBUxsej4_WvzjOFhVvsWsDmjm",
@@ -146,7 +146,7 @@
     "data/oracle-dashboard/sandbox-current-booking.json": {
       "fileId": "1z1uSus6B9E94-zhHUNlxNbqmktZ59VtY",
       "size": 4049236,
-      "md5": "fb5b2e185aeb115f758dd06a6dc724dd"
+      "md5": "735827dcc17eb9d5eead9f7cc3d4e048"
     },
     "data/oracle-dashboard/snapshots/20260707/manifest.json.gz": {
       "fileId": "1r_HgHfiLgzn-__1y4zZPZOxPmxkPSfBI",
@@ -1310,8 +1310,8 @@
     },
     "data/oracle-dashboard/snapshots/20260806/months/202608.json.gz": {
       "fileId": "17eeqq5jm8WiEZyg0ieu6mX_ns91wGvzJ",
-      "size": 21282227,
-      "md5": "7642dda7977b4e59eedcc686f993f48c"
+      "size": 21282607,
+      "md5": "4d888b847e2832f1f01b0e54e6ba83d9"
     },
     "data/oracle-dashboard/snapshots/20260806/months/202609.json.gz": {
       "fileId": "18cuLMZB38UZqpTwUnQQqxrkMBCZVpdzr",
