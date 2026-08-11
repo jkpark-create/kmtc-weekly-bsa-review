@@ -1,6 +1,6 @@
 {
   "format": "kmtc-protected-assets-v1",
-  "generatedAt": "2026-08-11T16:52:00+0900",
+  "generatedAt": "2026-08-11T16:56:28+0900",
   "auth": {
     "provider": "google",
     "allowedDomain": "ekmtc.com"
@@ -8,9 +8,9 @@
   "driveFolderId": "1lccizv8st6zJ-1mFSAvHZlx5kF8dYH7r",
   "appEntry": {
     "fileId": "12rNnKMBtqF0G_zxeRsg7fg-uBh0CZnGf",
-    "size": 8292457,
-    "md5": "72d6c13c4471634e6d3049f4d65989bb",
-    "localPath": "assets/index-DuhVZCTY.js"
+    "size": 15489187,
+    "md5": "caf44dd055005a57083177a0a402c1b0",
+    "localPath": "assets/index-DrFurQaP.js"
   },
   "files": {
     "data/oracle-dashboard/booking-intake.json.gz": {
