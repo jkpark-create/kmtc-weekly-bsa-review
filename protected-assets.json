@@ -1,6 +1,6 @@
 {
   "format": "kmtc-protected-assets-v1",
-  "generatedAt": "2026-08-23T23:52:25+0900",
+  "generatedAt": "2026-08-24T10:21:26+0900",
   "auth": {
     "provider": "google",
     "allowedDomain": "ekmtc.com"
@@ -8,9 +8,9 @@
   "driveFolderId": "1lccizv8st6zJ-1mFSAvHZlx5kF8dYH7r",
   "appEntry": {
     "fileId": "12rNnKMBtqF0G_zxeRsg7fg-uBh0CZnGf",
-    "size": 4290274,
-    "md5": "ee40bb7bde54099a402998edc67ab86b",
-    "localPath": "assets/index-zOxb8OX5.js"
+    "size": 4349162,
+    "md5": "f8005a3e22e4c4b3a9546e61b9db58e3",
+    "localPath": "assets/index-DhbSqCmZ.js"
   },
   "files": {
     "data/oracle-dashboard/booking-intake.json.gz": {
@@ -80,43 +80,43 @@
     },
     "data/oracle-dashboard/manifest.json": {
       "fileId": "1QJcoNha6sDJ83QGjAiOt86nOK-9atFC3",
-      "size": 6384247,
-      "md5": "48fc6b0ffb90698b7d991186bdbe56ce"
+      "size": 6377658,
+      "md5": "4b504b955ac9958f62c5dab4151f3dcc"
     },
     "data/oracle-dashboard/months/202601.json.gz": {
       "fileId": "1h08J8HtdDSekpov4xZo4-DnjC57135rt",
-      "size": 12509124,
-      "md5": "6b93be30ec40e5cfea487cc0a2b80f77"
+      "size": 12506032,
+      "md5": "46f51001ee92f168a700321038c846eb"
     },
     "data/oracle-dashboard/months/202602.json.gz": {
       "fileId": "1u_N7LIC9ZYsNuUi8KQNoyQMRr8rV2vgX",
-      "size": 11921743,
-      "md5": "122334096f1d009cbc57453348c6c8d9"
+      "size": 11924427,
+      "md5": "fa2582aeb28343e09cba4e5ea89220b5"
     },
     "data/oracle-dashboard/months/202603.json.gz": {
       "fileId": "1ZoEWkbPyJ8a-vm1fTq9lp_fIHvpp9UXD",
-      "size": 17274064,
-      "md5": "02d3463995fc55a0499d355d40f2b26c"
+      "size": 17277875,
+      "md5": "90dba5180d1fffff05839333076bca9a"
     },
     "data/oracle-dashboard/months/202604.json.gz": {
       "fileId": "1Y1DpGPyta2ky53nYSdsrVbD505pCfoe8",
-      "size": 14921348,
-      "md5": "c1f346ca7726f029d0b4246a0574fcbd"
+      "size": 14916696,
+      "md5": "fa58f395a5ee4bde972745c3c2cf516f"
     },
     "data/oracle-dashboard/months/202605.json.gz": {
       "fileId": "1yPmOd1DJ-w3Vkg6Elay3JV5nXVJ_mqNj",
-      "size": 14408093,
-      "md5": "866da4ae0ce3e651b6b75642ab8f0b7e"
+      "size": 14314824,
+      "md5": "50c149020e829a1a4f3d8bf43f770552"
     },
     "data/oracle-dashboard/months/202606.json.gz": {
       "fileId": "1fdAyuPFixh27NH_tKC8FDMkKkKXehxCj",
-      "size": 29670716,
-      "md5": "c582c6b4d891ea8ad39ce435cc968a73"
+      "size": 29634146,
+      "md5": "647f3c5c8e373370c19e1f08f8929c3c"
     },
     "data/oracle-dashboard/months/202607.json.gz": {
       "fileId": "1k9QJ54ngK_7Qfb4EDtpuHpnOFj4tOcin",
-      "size": 22251084,
-      "md5": "a817759c46a60819854ba8e10c920f10"
+      "size": 22242744,
+      "md5": "40434905550e0ba0049c40cef77252f3"
     },
     "data/oracle-dashboard/months/202607.json.gzr_mdrafn.tmp": {
       "fileId": "1lPWlfglKku6meBBVjzJv2nABO7OXMgIN",
@@ -125,28 +125,28 @@
     },
     "data/oracle-dashboard/months/202608.json.gz": {
       "fileId": "1oGAtcIydbqktIDVpDFMWkd6GwChPSLiv",
-      "size": 25690167,
-      "md5": "0fd15fcff4e1b08a976a40f19a5cf18a"
+      "size": 25624597,
+      "md5": "e0ef9b27784f8e5534dad4fe43295146"
     },
     "data/oracle-dashboard/months/202609.json.gz": {
       "fileId": "1cezeOOtXBUxsej4_WvzjOFhVvsWsDmjm",
-      "size": 10786963,
-      "md5": "bc3af235b24e52ec82dd16f5e9e697e4"
+      "size": 10805660,
+      "md5": "b62462f4723962dc600f90c3d949ccde"
     },
     "data/oracle-dashboard/months/202610.json.gz": {
       "fileId": "1f36rEL3hb5old-Jka8HplBAAqHBPHM5n",
-      "size": 1763678,
-      "md5": "244a2e251dfd095aa1689773b80cc79d"
+      "size": 1767195,
+      "md5": "fc1c82af58b65f92737eb5ee96eaebc6"
     },
     "data/oracle-dashboard/months/202611.json.gz": {
       "fileId": "1wc-J8BEtVpiuPJK4CwqjJjXa41xEquWh",
-      "size": 1245161,
-      "md5": "70d112d6e179d54c6dfd2b8cb8112ff9"
+      "size": 1268392,
+      "md5": "062cdb9a218b677f500d2ae3b4be74d9"
     },
     "data/oracle-dashboard/months/202612.json.gz": {
       "fileId": "1EkxXBqR4gHEhdAOhCtXjyJhHUm0vcCt4",
-      "size": 20165,
-      "md5": "6873c1a6f2fcab759c62b7a49b605dfa"
+      "size": 23753,
+      "md5": "c5a64d8d6f3c85e49e5cb9cb407a4a17"
     },
     "data/oracle-dashboard/sandbox-current-booking.json": {
       "fileId": "1z1uSus6B9E94-zhHUNlxNbqmktZ59VtY",
@@ -1698,15 +1698,80 @@
       "size": 20165,
       "md5": "6873c1a6f2fcab759c62b7a49b605dfa"
     },
+    "data/oracle-dashboard/snapshots/20260824/manifest.json.gz": {
+      "fileId": "1pdQ_S8nshpWb-ebCwtyQZ0g0bKY489Zj",
+      "size": 641587,
+      "md5": "bdd727b8d1792e33baa17c98fac6f953"
+    },
+    "data/oracle-dashboard/snapshots/20260824/months/202601.json.gz": {
+      "fileId": "1D07iYTFyp8SguPjVgsnIb0t5vBzBBthj",
+      "size": 12506032,
+      "md5": "46f51001ee92f168a700321038c846eb"
+    },
+    "data/oracle-dashboard/snapshots/20260824/months/202602.json.gz": {
+      "fileId": "1TyUu10nK0xigdlw8c9co4fpFXET6poIp",
+      "size": 11924427,
+      "md5": "fa2582aeb28343e09cba4e5ea89220b5"
+    },
+    "data/oracle-dashboard/snapshots/20260824/months/202603.json.gz": {
+      "fileId": "1bQqwUzJYnYSgoMGpXRAUIl2TsoSIwVXC",
+      "size": 17277875,
+      "md5": "90dba5180d1fffff05839333076bca9a"
+    },
+    "data/oracle-dashboard/snapshots/20260824/months/202604.json.gz": {
+      "fileId": "13l3D5LKyxjgmfXHe6SVFnQ4Zq-tOdBKQ",
+      "size": 14916696,
+      "md5": "fa58f395a5ee4bde972745c3c2cf516f"
+    },
+    "data/oracle-dashboard/snapshots/20260824/months/202605.json.gz": {
+      "fileId": "1mFmuh-P5orIWGmBGEaPv_VrFb4EyolXz",
+      "size": 14314824,
+      "md5": "50c149020e829a1a4f3d8bf43f770552"
+    },
+    "data/oracle-dashboard/snapshots/20260824/months/202606.json.gz": {
+      "fileId": "1mw6vpJyqOtukY8wsI9EgSJgi2zJZi9_h",
+      "size": 29408071,
+      "md5": "bb612c0698b662710e023928bb35ab96"
+    },
+    "data/oracle-dashboard/snapshots/20260824/months/202607.json.gz": {
+      "fileId": "1hOe4fFQpNXRLYS61C_alv42A_aSFsPfO",
+      "size": 22065176,
+      "md5": "a285d69f6050731f50299a7630c51e0f"
+    },
+    "data/oracle-dashboard/snapshots/20260824/months/202608.json.gz": {
+      "fileId": "14H-ICDn7wS_2-JPGj7MUl_NdZZYCMQiR",
+      "size": 25434025,
+      "md5": "4b809fc4123653d3976f809658b05f56"
+    },
+    "data/oracle-dashboard/snapshots/20260824/months/202609.json.gz": {
+      "fileId": "1VyWPeuQjePJk4VEOMkSPDMQtpkJ9Zh_o",
+      "size": 10805660,
+      "md5": "b62462f4723962dc600f90c3d949ccde"
+    },
+    "data/oracle-dashboard/snapshots/20260824/months/202610.json.gz": {
+      "fileId": "1RkYRRP82s9HVm34m-usPs-W3BDWZ5_-Z",
+      "size": 1767195,
+      "md5": "fc1c82af58b65f92737eb5ee96eaebc6"
+    },
+    "data/oracle-dashboard/snapshots/20260824/months/202611.json.gz": {
+      "fileId": "16CP8DKRrVz7_tg0ID-j2D_ugkI3FL5r-",
+      "size": 1268392,
+      "md5": "062cdb9a218b677f500d2ae3b4be74d9"
+    },
+    "data/oracle-dashboard/snapshots/20260824/months/202612.json.gz": {
+      "fileId": "1LjbUxSOvYIplmt-x6BeJzGtmsFL5Ftiv",
+      "size": 23753,
+      "md5": "c5a64d8d6f3c85e49e5cb9cb407a4a17"
+    },
     "data/oracle-dashboard/snapshots/index.json": {
       "fileId": "1EeCFaf85Kr_YTe88WeAphQWxYlcYj6rk",
       "size": 2933,
-      "md5": "0dc89fb185011ab42c8971425d8ac3e4"
+      "md5": "76e3748e209cf7eb34e46e0088b67d23"
     },
     "rob-max.json": {
       "fileId": "194Zu3blgNhpx0THEqSB3GPhoIRLKM2BG",
-      "size": 4356695,
-      "md5": "d871d6df1a7cae42f859bad3ec74ddd8"
+      "size": 4354420,
+      "md5": "a9b255f77b33b8aa885870f53fdef51e"
     }
   }
 }
