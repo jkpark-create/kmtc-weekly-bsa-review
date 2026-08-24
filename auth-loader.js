@@ -7,6 +7,8 @@ const RETURN_PATH_KEY = 'obtReturnPath';
 const AUTH_REDIRECT_PATH = '/kmtc-3w-dashboard-web/';
 const PROTECTED_INDEX_FILE = 'protected-assets.json';
 const LANGUAGE_KEY = 'lang';
+const DRIVE_FETCH_MAX_ATTEMPTS = 3;
+const DRIVE_FETCH_RETRY_BASE_MS = 500;
 
 const LOGIN_COPY = Object.freeze({
   ko: Object.freeze({
@@ -51,6 +53,10 @@ const loaderUrl = new URL(import.meta.url);
 const baseUrl = new URL('./', loaderUrl);
 const isLocalPreview = ['localhost', '127.0.0.1'].includes(window.location.hostname);
 const useProtectedDrive = !isLocalPreview || new URLSearchParams(location.search).has('protectedDrive');
+
+function waitForRetry(milliseconds) {
+  return new Promise((resolve) => setTimeout(resolve, milliseconds));
+}
 
 function preferredLanguage() {
   try {
@@ -245,19 +251,30 @@ async function fetchDriveFile(fileId, options = {}) {
     location.reload();
     throw new Error(loginCopy('noSessionError'));
   }
-  const response = await nativeFetch(
-    `https://www.googleapis.com/drive/v3/files/${encodeURIComponent(fileId)}?alt=media&t=${Date.now()}`,
-    {
-      ...options,
-      cache: 'no-store',
-      headers: { ...(options.headers || {}), Authorization: `Bearer ${token}` }
+  const requestUrl = `https://www.googleapis.com/drive/v3/files/${encodeURIComponent(fileId)}?alt=media`;
+  for (let attempt = 1; attempt <= DRIVE_FETCH_MAX_ATTEMPTS; attempt += 1) {
+    let response;
+    try {
+      response = await nativeFetch(`${requestUrl}&t=${Date.now()}`, {
+        ...options,
+        cache: 'no-store',
+        headers: { ...(options.headers || {}), Authorization: `Bearer ${token}` }
+      });
+    } catch (error) {
+      if (attempt >= DRIVE_FETCH_MAX_ATTEMPTS) throw error;
+      await waitForRetry(DRIVE_FETCH_RETRY_BASE_MS * (2 ** (attempt - 1)));
+      continue;
     }
-  );
-  if (response.status === 401) {
-    clearSession({ keepUser: true });
-    location.reload();
+    if (response.status === 401) {
+      clearSession({ keepUser: true });
+      location.reload();
+      return response;
+    }
+    if (response.status !== 429 && response.status < 500) return response;
+    if (attempt >= DRIVE_FETCH_MAX_ATTEMPTS) return response;
+    await waitForRetry(DRIVE_FETCH_RETRY_BASE_MS * (2 ** (attempt - 1)));
   }
-  return response;
+  throw new Error('Google Drive request exhausted without a response.');
 }
 
 async function fetchProtectedAsset(input, options = {}) {
