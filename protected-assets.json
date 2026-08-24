@@ -1,6 +1,6 @@
 {
   "format": "kmtc-protected-assets-v1",
-  "generatedAt": "2026-08-24T15:36:19+0900",
+  "generatedAt": "2026-08-24T16:16:57+0900",
   "auth": {
     "provider": "google",
     "allowedDomain": "ekmtc.com"
@@ -8,9 +8,9 @@
   "driveFolderId": "1lccizv8st6zJ-1mFSAvHZlx5kF8dYH7r",
   "appEntry": {
     "fileId": "12rNnKMBtqF0G_zxeRsg7fg-uBh0CZnGf",
-    "size": 4354383,
-    "md5": "1dcff25ef27ff57082eddb5b6769cb61",
-    "localPath": "assets/index-JUteIGkr.js"
+    "size": 4354307,
+    "md5": "f55b012bb03c44d17323771c837fd832",
+    "localPath": "assets/index-h1wg2x3Z.js"
   },
   "files": {
     "data/oracle-dashboard/booking-intake.json.gz": {
@@ -1101,7 +1101,7 @@
     "data/oracle-dashboard/snapshots/index.json": {
       "fileId": "1EeCFaf85Kr_YTe88WeAphQWxYlcYj6rk",
       "size": 2933,
-      "md5": "76e3748e209cf7eb34e46e0088b67d23"
+      "md5": "a379ff773ab1244d7a816351497d0ffb"
     },
     "rob-max.json": {
       "fileId": "194Zu3blgNhpx0THEqSB3GPhoIRLKM2BG",
