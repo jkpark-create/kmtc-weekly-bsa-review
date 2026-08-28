@@ -1,6 +1,6 @@
 {
   "format": "kmtc-protected-assets-v1",
-  "generatedAt": "2026-08-28T15:46:26+0900",
+  "generatedAt": "2026-08-28T16:07:00+0900",
   "auth": {
     "provider": "google",
     "allowedDomain": "ekmtc.com"
@@ -81,7 +81,7 @@
     "data/oracle-dashboard/bsa-watchlist.json.gz": {
       "fileId": "1MS_KOk8yEu0nwLjG_Ql1hxKxsyql-CL-",
       "size": 4038398,
-      "md5": "fa536e64f4b8298c559c5e459d7044d2"
+      "md5": "f0cd9041c60a8c41efe99753c7bdd3c4"
     },
     "data/oracle-dashboard/manifest.json": {
       "fileId": "1QJcoNha6sDJ83QGjAiOt86nOK-9atFC3",
