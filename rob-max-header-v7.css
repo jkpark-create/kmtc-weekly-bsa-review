@@ -1,0 +1,5 @@
+.routeCapacityScroller thead tr:nth-child(2) th,
+.spaceTableScroller thead tr:nth-child(2) th {
+  top: 28px;
+  z-index: 2;
+}
