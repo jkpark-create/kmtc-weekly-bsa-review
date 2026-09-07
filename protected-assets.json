@@ -1,6 +1,6 @@
 {
   "format": "kmtc-protected-assets-v1",
-  "generatedAt": "2026-09-07T16:32:32+0900",
+  "generatedAt": "2026-09-07T16:48:47+0900",
   "auth": {
     "provider": "google",
     "allowedDomain": "ekmtc.com"
@@ -79,19 +79,19 @@
       "md5": "14561b06a5a43ed52f15ca3f0475c3a1"
     },
     "data/oracle-dashboard/bsa-watchlist.json.gz": {
-      "fileId": "1M3is8lS8VTU767GTaF41UhBYO51dP2Q-",
+      "fileId": "1rgQhIoTXP96Q9Y7QWdZhtjs8ze9e9CA5",
       "size": 8787424,
-      "md5": "036bb527542368c363e55f33483179aa"
+      "md5": "4290073b4c409a72c461ddac55c5aa0e"
     },
     "data/oracle-dashboard/commodity-classification-quality.json": {
-      "fileId": "1jGauYGFt6Lsks6z9Cs-lJTv_gyn5Agqa",
+      "fileId": "1VfA1KeRRYSj_-e6MXqlPSmwi3BWabIcR",
       "size": 157220,
-      "md5": "11cddbaef536645b1759cf090dae7c32"
+      "md5": "976f9d13da814385483568b98bd28a19"
     },
     "data/oracle-dashboard/commodity-classification-review-mappings.json.gz": {
-      "fileId": "137ubWkOHvm2yCH8PAelr99a6_Ow_RNeh",
-      "size": 1250832,
-      "md5": "a1fcdb94e87065ecb1d9b2f2be8fdebf"
+      "fileId": "11r4BomcI-7zj3MfSgDlLFc5m4U1ESF29",
+      "size": 1171413,
+      "md5": "3c6dbcea3bf0ff0381dd02fb7288a1d6"
     },
     "data/oracle-dashboard/details/202601.json.gz": {
       "fileId": "1IOhXpHhaLn0lRKfheOfUBS3elAxMHH6H",
