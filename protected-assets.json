@@ -1,16 +1,16 @@
 {
   "format": "kmtc-protected-assets-v1",
-  "generatedAt": "2026-09-07T10:51:25+0900",
+  "generatedAt": "2026-09-07T11:31:00+0900",
   "auth": {
     "provider": "google",
     "allowedDomain": "ekmtc.com"
   },
   "driveFolderId": "1lccizv8st6zJ-1mFSAvHZlx5kF8dYH7r",
   "appEntry": {
-    "fileId": "15RdzpO_jBRClyWywtDXdfump73Tot57E",
-    "size": 4189457,
-    "md5": "2d6ed31426b6b372754170a56f8a0027",
-    "localPath": "assets/index-DXujN3jS.js"
+    "fileId": "1eTuJsw2fxq9diLmC4XAE3oW_1uKzCENS",
+    "size": 4189948,
+    "md5": "dcdfc65735deb2e298fffed40cb40706",
+    "localPath": "assets/index-tP7r3rB3.js"
   },
   "files": {
     "data/oracle-dashboard/booking-intake.json.gz": {
@@ -272,6 +272,11 @@
       "fileId": "170oIEVwacfl4mhfD-MBRWmxh4oMXtls1",
       "size": 306276,
       "md5": "e50f0bc3a986fb3b80ea4c85501a7bb4"
+    },
+    "data/oracle-dashboard/sales-analysis.json.gz": {
+      "fileId": "1sLKP2RsakIIERnYYJbvu_UV4EEiI1xXk",
+      "size": 5374287,
+      "md5": "c9c0aaca53ac2a27668d0519e771a54e"
     },
     "data/oracle-dashboard/sandbox-current-booking.json": {
       "fileId": "1z1uSus6B9E94-zhHUNlxNbqmktZ59VtY",
@@ -2907,11 +2912,6 @@
       "fileId": "1gklpbU3_ke9J5DKU804NvVFUucTdek2m",
       "size": 4246202,
       "md5": "fe632c8b85854f53bc78129e11b0b75e"
-    },
-    "data/oracle-dashboard/sales-analysis.json.gz": {
-      "fileId": "1sLKP2RsakIIERnYYJbvu_UV4EEiI1xXk",
-      "size": 5374287,
-      "md5": "c9c0aaca53ac2a27668d0519e771a54e"
     }
   }
 }
