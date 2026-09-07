@@ -1,16 +1,16 @@
 {
   "format": "kmtc-protected-assets-v1",
-  "generatedAt": "2026-09-07T10:24:26+0900",
+  "generatedAt": "2026-09-07T10:51:25+0900",
   "auth": {
     "provider": "google",
     "allowedDomain": "ekmtc.com"
   },
   "driveFolderId": "1lccizv8st6zJ-1mFSAvHZlx5kF8dYH7r",
   "appEntry": {
-    "fileId": "156dC0hWy5OcQhzy9iXVqICkvko_ffuBW",
-    "size": 4255951,
-    "md5": "48bdf707a94c62bfbb7f0c9add2f05bb",
-    "localPath": "assets/index-BidjfeQI.js"
+    "fileId": "15RdzpO_jBRClyWywtDXdfump73Tot57E",
+    "size": 4189457,
+    "md5": "2d6ed31426b6b372754170a56f8a0027",
+    "localPath": "assets/index-DXujN3jS.js"
   },
   "files": {
     "data/oracle-dashboard/booking-intake.json.gz": {
@@ -2907,6 +2907,11 @@
       "fileId": "1gklpbU3_ke9J5DKU804NvVFUucTdek2m",
       "size": 4246202,
       "md5": "fe632c8b85854f53bc78129e11b0b75e"
+    },
+    "data/oracle-dashboard/sales-analysis.json.gz": {
+      "fileId": "1sLKP2RsakIIERnYYJbvu_UV4EEiI1xXk",
+      "size": 5374287,
+      "md5": "c9c0aaca53ac2a27668d0519e771a54e"
     }
   }
 }
