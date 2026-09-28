@@ -1,18 +1,123 @@
 {
   "format": "kmtc-protected-assets-v1",
-  "generatedAt": "2026-09-28T12:18:16+0900",
+  "generatedAt": "2026-09-28T15:41:11+0900",
   "auth": {
     "provider": "google",
     "allowedDomain": "ekmtc.com"
   },
   "driveFolderId": "1lccizv8st6zJ-1mFSAvHZlx5kF8dYH7r",
   "appEntry": {
-    "fileId": "1KoCKeLzLT_WU9qy3m7K4cclHX1bSX6pP",
-    "size": 4224453,
-    "md5": "f5a84329e6d38ca87259d099ebb5906e",
-    "localPath": "assets/index-BA5mwfWV.js"
+    "fileId": "1l3l5gUJMKyRJpHLzje5M1YE6GPR4msmI",
+    "size": 3150175,
+    "md5": "a9eb974e28663cc4d23756b6d47dc6a2",
+    "localPath": "assets/index-BNQ4OUFG.js"
   },
   "files": {
+    "assets/help/bl-lower.webp": {
+      "fileId": "1mXUqDTfn7mOphGkjEMuQGT5OXHB9Ep_p",
+      "size": 52340,
+      "md5": "7c2811b5e8da9d1431bba626cc840d07"
+    },
+    "assets/help/bl-top.webp": {
+      "fileId": "1iWUl56nAyv05wJiwFt6KHC7Y4qo1PmLB",
+      "size": 54122,
+      "md5": "7797568ffaa8ee089668113b9440ddfc"
+    },
+    "assets/help/booking-bottom.webp": {
+      "fileId": "15TnWKyufAr8nvav4OF_joLHFz-IpDCCt",
+      "size": 33250,
+      "md5": "670c71646d29013b0d593db7cc6f67f6"
+    },
+    "assets/help/booking-middle.webp": {
+      "fileId": "1v5wGofq5j2zOLa7lkABq4fiUOa5i6LF3",
+      "size": 37386,
+      "md5": "1f45f981456b07ed8c52a85f3ce51d3f"
+    },
+    "assets/help/booking-top.webp": {
+      "fileId": "1Kiw0LgPA8tFzuWMo-SpneKraw3BjF153",
+      "size": 40886,
+      "md5": "163c1a952caa5021482eb5e670171cb1"
+    },
+    "assets/help/maxrob-detail.webp": {
+      "fileId": "1zUctcGZ56jtX1b5rYzVDlbWcnPARExz-",
+      "size": 48540,
+      "md5": "08663d591edee4015fc79512d8cdef0e"
+    },
+    "assets/help/maxrob-overview.webp": {
+      "fileId": "1rji2ZbndRZ25Fyx61sAUAUsSbVMRW5_e",
+      "size": 47770,
+      "md5": "ebc3ab739030741227c82024a73b18e7"
+    },
+    "assets/help/overview-lower.webp": {
+      "fileId": "1wYCnvrITBLC9-FhBEkH_XhUl9QspjMbt",
+      "size": 32226,
+      "md5": "f546aa236d3b6918c83a52f3b1a5a1cc"
+    },
+    "assets/help/overview-map-detail.webp": {
+      "fileId": "1xxcfpUoIoAGHOeayhD4ynKHdocMJASHE",
+      "size": 42238,
+      "md5": "607f44b4d8145d061f3c019ead8392ab"
+    },
+    "assets/help/overview-map.webp": {
+      "fileId": "1C6jt93Vu5KiG_1JSO_i8JhtgbM0Jp19f",
+      "size": 48174,
+      "md5": "67576191baa5830eb74eb5844d8f8638"
+    },
+    "assets/help/overview-middle.webp": {
+      "fileId": "1CFcV-y1Ug2Hg3zZKZx0HEoThi5nq9ptm",
+      "size": 40408,
+      "md5": "871d9cc8514770ad8056f34b8459f6a2"
+    },
+    "assets/help/overview-top.webp": {
+      "fileId": "1PL0SmDkZ_gpyjPri64rlkobDn-aAc3WZ",
+      "size": 50018,
+      "md5": "48690eb6b5a07b63b69101d8e56a881b"
+    },
+    "assets/help/portal-english-lower.webp": {
+      "fileId": "1K86_gb7T-hs14cHti6kBowXupoBufnam",
+      "size": 48936,
+      "md5": "9bfbb262914bd3435caad6007ec5dc7d"
+    },
+    "assets/help/portal-english-top.webp": {
+      "fileId": "16FL7tF86vyTBqmZxX71LYf0v7uZWglw5",
+      "size": 50774,
+      "md5": "c0907d3d416cad68936b7e89f6895eee"
+    },
+    "assets/help/portal-language-japanese.webp": {
+      "fileId": "1vc_S9YTY6ppDUWKyBTKOSHR53OMIeEqa",
+      "size": 58440,
+      "md5": "f3fb5055fcfcf965cf02a15a094a744a"
+    },
+    "assets/help/portal-language-selector.webp": {
+      "fileId": "1_ttDNyARIshMk_M47165f0K1FEclIVng",
+      "size": 61440,
+      "md5": "ba320ebd5bc508e758787f62e2c7fdff"
+    },
+    "assets/help/ts-control-lower.webp": {
+      "fileId": "1J8JCIEhCD8gwP3H8WM8V5cv0i0eZpsli",
+      "size": 45658,
+      "md5": "26e7e2967e5c065abc191dde5de3eba8"
+    },
+    "assets/help/ts-control-top.webp": {
+      "fileId": "1iyDPMnOSSH-QfZPEcEyC3oL1rELBd4Dp",
+      "size": 48654,
+      "md5": "ec7372017916c8f0ea51d31255e11103"
+    },
+    "assets/help/watchlist-lower.webp": {
+      "fileId": "1r3m_QXOTm-kK_DqC9zZlWhgY5ec21_eP",
+      "size": 59776,
+      "md5": "4cd856c9f9ba8cf49df214bc98dc871d"
+    },
+    "assets/help/watchlist-top.webp": {
+      "fileId": "1FOqA0FgW3jYE-RYwDlaUQiONKGOyM4oj",
+      "size": 63930,
+      "md5": "b2c64bf3f2732529e418e4ce3f0fafb3"
+    },
+    "assets/help/weekly-prospect.webp": {
+      "fileId": "1fF48jLPIJ_J4v1RK2ldeSz53bg8XkgRE",
+      "size": 61256,
+      "md5": "75ec0c54418483ff214ba01d7f48012d"
+    },
     "data/oracle-dashboard/booking-intake.json.gz": {
       "fileId": "1LFoK928Gpg2Ynpn3Tg1dTsU8ttWls5eS",
       "size": 6415429,

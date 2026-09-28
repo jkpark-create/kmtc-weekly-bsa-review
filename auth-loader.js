@@ -255,9 +255,11 @@ async function fetchDriveFile(fileId, options = {}) {
   for (let attempt = 1; attempt <= DRIVE_FETCH_MAX_ATTEMPTS; attempt += 1) {
     let response;
     try {
-      response = await nativeFetch(`${requestUrl}&t=${Date.now()}`, {
+      response = await nativeFetch(requestUrl, {
         ...options,
-        cache: 'no-store',
+        // Published file IDs are content-versioned and immutable. Reusing the
+        // browser's private HTTP cache avoids downloading the same release again.
+        cache: 'force-cache',
         headers: { ...(options.headers || {}), Authorization: `Bearer ${token}` }
       });
     } catch (error) {
@@ -331,14 +333,16 @@ async function bootstrap() {
 
   renderGate({ checking: true });
   try {
-    const user = await verifySession(token, storedUser);
+    const [user, index] = await Promise.all([
+      verifySession(token, storedUser),
+      loadProtectedIndex()
+    ]);
     if (!user) {
       clearSession({ keepUser: true });
       renderGate({ error: loginCopy('sessionExpiredError') });
       return;
     }
     saveSession(token, user);
-    const index = await loadProtectedIndex();
     await loadApplication(index, user);
   } catch (error) {
     clearSession({ keepUser: true });
