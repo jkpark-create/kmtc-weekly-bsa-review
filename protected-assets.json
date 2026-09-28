@@ -1,22 +1,22 @@
 {
   "format": "kmtc-protected-assets-v1",
-  "generatedAt": "2026-09-24T11:39:48+0900",
+  "generatedAt": "2026-09-28T12:18:16+0900",
   "auth": {
     "provider": "google",
     "allowedDomain": "ekmtc.com"
   },
   "driveFolderId": "1lccizv8st6zJ-1mFSAvHZlx5kF8dYH7r",
   "appEntry": {
-    "fileId": "1dmVy6HvZnvk6APbaNAvS15bjaUIJB-2-",
-    "size": 4223349,
-    "md5": "727f153766462298114affd2c3c27a20",
-    "localPath": "assets/index-D9r75bFA.js"
+    "fileId": "1KoCKeLzLT_WU9qy3m7K4cclHX1bSX6pP",
+    "size": 4224453,
+    "md5": "f5a84329e6d38ca87259d099ebb5906e",
+    "localPath": "assets/index-BA5mwfWV.js"
   },
   "files": {
     "data/oracle-dashboard/booking-intake.json.gz": {
-      "fileId": "1zEb_fj2rzGvwOosbwrRC1n0RSwtX4z5y",
-      "size": 6495606,
-      "md5": "5655cd94b6e5b9227b32663d129e557b"
+      "fileId": "1LFoK928Gpg2Ynpn3Tg1dTsU8ttWls5eS",
+      "size": 6415429,
+      "md5": "c24fc59b1206b9d9ff3158ab48148acb"
     },
     "data/oracle-dashboard/booking-stage/months/202601.json.gz": {
       "fileId": "1Zzk8Pfjv3AfRn-k_gD1VKzMkxoC2ivRj",
@@ -79,19 +79,19 @@
       "md5": "14561b06a5a43ed52f15ca3f0475c3a1"
     },
     "data/oracle-dashboard/bsa-watchlist.json.gz": {
-      "fileId": "1qWaujTTii237nNKj7dV7KGLUFVufp1AX",
-      "size": 11054064,
-      "md5": "74f33ff2435168982c0d8f492e82bcae"
+      "fileId": "1FNfmtM46FNyFxFAUZnf1aVMqfBZ0HRc1",
+      "size": 10974116,
+      "md5": "cbed86b872ef18b27fd7a0d7f9ea905f"
     },
     "data/oracle-dashboard/commodity-classification-quality.json": {
-      "fileId": "1q28-sbG8DewngpSjlYDOBIuIMY82PLSA",
-      "size": 163375,
-      "md5": "0978b857df2fba90dc565cf55c45cadf"
+      "fileId": "1lDJZR-MakrJWBLufotdfzGg_asyS3Aw5",
+      "size": 163385,
+      "md5": "e9de875bdc0593f998fa31314840e152"
     },
     "data/oracle-dashboard/commodity-classification-review-mappings.json.gz": {
-      "fileId": "1pxEu3iSvh5HC38vae4ltVsOR3P0MFwl4",
-      "size": 1770136,
-      "md5": "5a5510f923a2c9142f55314bd931a81b"
+      "fileId": "1uH02LxuxMpzKUz9sH-gh8yj3X2ga-Rd4",
+      "size": 1786574,
+      "md5": "9be847be0c17d864b13ded186cb417a4"
     },
     "data/oracle-dashboard/commodity-evidence/202601.json.gz": {
       "fileId": "1TAa9_O_Pg5DvvUeXmUpmkI8ztEeiBkq-",
@@ -119,39 +119,39 @@
       "md5": "7b01d9f3311f6e8bcd1ff41dfa952c0f"
     },
     "data/oracle-dashboard/commodity-evidence/202606.json.gz": {
-      "fileId": "14WjUcEjh4PLBo_L6c8fHqxJnbMk3YrjM",
-      "size": 812128,
-      "md5": "20b2c1dc09c3bb6692b8dfafbd946348"
+      "fileId": "1eJPapAqKpOsffi-BfuyI2BQTgOBfPttM",
+      "size": 812090,
+      "md5": "7ace5aae1d8a26f404a13842a1e54504"
     },
     "data/oracle-dashboard/commodity-evidence/202607.json.gz": {
-      "fileId": "1sakaf20ZJYVRZXG5HrnXM4UiBmBlGgAX",
-      "size": 588774,
-      "md5": "53df32c83d3b7421e1cb3f3cfa596ca9"
+      "fileId": "14hWeKpSXsX4ZImUjFeJRe7s5c76mc5vS",
+      "size": 588724,
+      "md5": "25f6f9c642b74ac9d1a91a575a6e7983"
     },
     "data/oracle-dashboard/commodity-evidence/202608.json.gz": {
-      "fileId": "1xtjLYUVR6GaIUlRa7VPUCyHkR_lYfwyV",
-      "size": 637080,
-      "md5": "02ef9736f61a76f54ad3ffe427f2e408"
+      "fileId": "1WHIn7IjI2WeJlOPQ5zuR6e58stAEdysq",
+      "size": 636965,
+      "md5": "18992c0d0d703b2070124eae0454150b"
     },
     "data/oracle-dashboard/commodity-evidence/202609.json.gz": {
-      "fileId": "1G2Xx08At5iPalKCwwzysXmoMHU-So6ix",
-      "size": 880003,
-      "md5": "44434d0c647c8410a31e318d39ef0fcd"
+      "fileId": "1w7S4ENrsw-xGnXMEJlUdjLSF5I2dCoDE",
+      "size": 899322,
+      "md5": "f8b12ed020fba77fae0b95cf9bab3c65"
     },
     "data/oracle-dashboard/commodity-evidence/202610.json.gz": {
-      "fileId": "19GAo7we0liNH1pZ9Kt0CitSuW7g_Ugfg",
-      "size": 177952,
-      "md5": "1e51678077718279c76c75829fd177dc"
+      "fileId": "1kYRbZm3CW253vroQrKln1wLlrwbYXmlQ",
+      "size": 207015,
+      "md5": "4e895c7fe09f663dd87602bc8f3d778d"
     },
     "data/oracle-dashboard/commodity-evidence/202611.json.gz": {
-      "fileId": "1TcTdObjYHxuD5mi--mHXsSE_PnNBs04g",
-      "size": 7208,
-      "md5": "600f723963709d5bbc8ed72c5fa585f6"
+      "fileId": "1OgWcTmQ1H4qeFlWyBeie3ATh_GCSAmNa",
+      "size": 8371,
+      "md5": "d1d661d561fd3cb899e03e346a0d292c"
     },
     "data/oracle-dashboard/commodity-evidence/202612.json.gz": {
-      "fileId": "1NjqOg-p1ZfNDjTUmq_9ompTcSmkUVOxR",
-      "size": 214,
-      "md5": "0335fcdfd61ca9e8df99f4c06bc1dd11"
+      "fileId": "1j3nOCsxhpI4_wqsK5_fG6CsZZN6ywi2E",
+      "size": 213,
+      "md5": "99c6b498952ad4eb5ecbc9ad85c96a51"
     },
     "data/oracle-dashboard/details/202601.json.gz": {
       "fileId": "1NEWUC3vFJwf9UcGhJDIjAXByttYRUftC",
@@ -179,39 +179,39 @@
       "md5": "6b75dd6ebb65591b926275e00e4dbf32"
     },
     "data/oracle-dashboard/details/202606.json.gz": {
-      "fileId": "1nlaPE7WTsU08F-hZ7AQ8_eTnhEr1q5Z5",
-      "size": 34279862,
-      "md5": "c4c006d7ca12dbbfbe2a232c489987e4"
+      "fileId": "1LI570bD1PPkai5qVfrXeqtZwLdlnGJRg",
+      "size": 33648495,
+      "md5": "16616ebc0f64b2ccfff0c617a24dedc6"
     },
     "data/oracle-dashboard/details/202607.json.gz": {
-      "fileId": "1pSfFt7CuRV4DEEhn2XwM3aHYTOMfapDB",
-      "size": 25641031,
-      "md5": "667c9318468216e20463d01eccd529da"
+      "fileId": "1dO7H6KzXEIP7sbzHT7t6vabQtf_g4W0y",
+      "size": 24978519,
+      "md5": "e7db865c6d8652f61008916fb49eb802"
     },
     "data/oracle-dashboard/details/202608.json.gz": {
-      "fileId": "1HLKI-Jo2RyBbrtkTzKdi8Mb6ln6tfBBe",
-      "size": 27416716,
-      "md5": "b41a152a5796405b216b65c92463d516"
+      "fileId": "19rQ68GrQ_WpUKqxyZ7vyyotDcj8hm3IK",
+      "size": 26882357,
+      "md5": "dddd5759c464e0054dd80399556ba41d"
     },
     "data/oracle-dashboard/details/202609.json.gz": {
-      "fileId": "1FybHLNUYJh1sLxRqoA9Gaw1saqAYaz6H",
-      "size": 37631225,
-      "md5": "80bb2bd403e5168d4e4e8875ec18638a"
+      "fileId": "1gg9zsjSqHihCYmMyQoECKnn_tmib8Z8L",
+      "size": 37910078,
+      "md5": "750026020bd0ac9713d86c171c5adf5c"
     },
     "data/oracle-dashboard/details/202610.json.gz": {
-      "fileId": "16GtTfHRB2NPVMytvBobwKIeKlWQ-49so",
-      "size": 7413130,
-      "md5": "cdc7d77e6f83ca0c9abb7ba5794492ae"
+      "fileId": "1-KNNgE_f4MLC7GdRivkQb5ZZaAKZUXPr",
+      "size": 8024044,
+      "md5": "f6f975402451af984098dd71fac94db7"
     },
     "data/oracle-dashboard/details/202611.json.gz": {
-      "fileId": "1mqrb_GG-vYoMG-YN3scA6KZkxj5Hv-pX",
-      "size": 422911,
-      "md5": "35da45b6043483aa61aa68e9ffebc2a0"
+      "fileId": "1ku8dZr3uNCF6wlpzbZLyoKgpRD41HIWH",
+      "size": 479397,
+      "md5": "1174744287321481c657b417afd0314f"
     },
     "data/oracle-dashboard/details/202612.json.gz": {
-      "fileId": "10a6ahRnkvb_PrXxfw3b7uf_76wHzDQp3",
-      "size": 12817,
-      "md5": "f6ebc2d6a09c7dfdc7953a06c1e51ba9"
+      "fileId": "1KPzmrGKCxDSDVUNCC8ypPrahFTmW87cZ",
+      "size": 13127,
+      "md5": "c20260dc1755ba5f6e587dfdf9bd24b0"
     },
     "data/oracle-dashboard/lanes/202601.json.gz": {
       "fileId": "1-lDyr8QCYqkSEgB0N5r7kk-685lAP8Wt",
@@ -239,49 +239,49 @@
       "md5": "52ea64232d9d0bab1bc6f51e3485e77d"
     },
     "data/oracle-dashboard/lanes/202606.json.gz": {
-      "fileId": "18cY3OUlZz_YrQCqrafTqHS7NdvJ4ib1D",
-      "size": 8831130,
-      "md5": "1080271493aae617be8aa7ad3149b8f9"
+      "fileId": "1ZP7r-GQkrisDUsaOHKrWMEh4KTtNj46v",
+      "size": 8586255,
+      "md5": "fc2889b4c7cf8c5ddeeabbb0a4751a57"
     },
     "data/oracle-dashboard/lanes/202607.json.gz": {
-      "fileId": "1sYL3mlEpL-M_u3YEvyAJigDW8CkaIhg8",
-      "size": 7222243,
-      "md5": "3384ee39b8538ebb94da0487ab2e055e"
+      "fileId": "1P5Kj2NdVz0RM0jgzqgs4lwupn6e_c47I",
+      "size": 6965100,
+      "md5": "f033c3886f04d72be375420f17272ce3"
     },
     "data/oracle-dashboard/lanes/202608.json.gz": {
-      "fileId": "1KCvuqhJa3LYYjLXaFHqS-IFOICmLYni8",
-      "size": 7639125,
-      "md5": "b23eafbe6a5fe49624631ee0b7cc3bf9"
+      "fileId": "1ERJ1tAeug6TGMQMVYRWf-QMUcmUYly8r",
+      "size": 7428998,
+      "md5": "ccee707e04c00f21ef96e2f83439eb4f"
     },
     "data/oracle-dashboard/lanes/202609.json.gz": {
-      "fileId": "112ITV-MiAS2Vtbj0Cek6NVfde53JfUqz",
-      "size": 10163696,
-      "md5": "5f4a631aafb123946319797536d89bf8"
+      "fileId": "1e0tIpAiUYLsH-iEuEI8XEvF6p6Qk1X2Z",
+      "size": 9889233,
+      "md5": "9ce0485b3c5fe9531ac937374921392e"
     },
     "data/oracle-dashboard/lanes/202610.json.gz": {
-      "fileId": "1CMkcmm7nfIRpFKJyFXzo76uhwrc2E6MV",
-      "size": 4164428,
-      "md5": "d6c7bc73631f269f197389cb26861cd0"
+      "fileId": "1u-6I_EFohye05yR7C24H3upmMUoU9TE2",
+      "size": 4368443,
+      "md5": "910a41b8cbbfeec35e834f233de70d62"
     },
     "data/oracle-dashboard/lanes/202611.json.gz": {
-      "fileId": "1sww0wFy6j_soRglkgcqBL1oYLGze__6w",
-      "size": 678452,
-      "md5": "e0ef52bd767d23df971555a0e0cdcca7"
+      "fileId": "1U420KD5mAQ_v2bxBafado3DstoM1_cQk",
+      "size": 712800,
+      "md5": "ac1e36dab54f1b1714bcf3aec276bed0"
     },
     "data/oracle-dashboard/lanes/202612.json.gz": {
-      "fileId": "17fX6lsAyID7X5nih7hSpxb4Jfa359xN0",
-      "size": 427109,
-      "md5": "4fe9e04fbecc58fe8d2a10bd644b23c8"
+      "fileId": "16T1CM_3Ig9js1gp7k8lNYKC-Nd_hoeR4",
+      "size": 467718,
+      "md5": "1f4510f40fece46420ad1c19895ce819"
     },
     "data/oracle-dashboard/manifest.json": {
-      "fileId": "1dKbLgwsHcnAjNJlqSVsA9tL6ljCgty5k",
-      "size": 6144647,
-      "md5": "c1a2599408abadac5ebcfb3586fd9466"
+      "fileId": "10o78Dp-1P9sMSyTqkwF06nOQHrgYW8Sd",
+      "size": 6135943,
+      "md5": "2a82d4a077530cb7a2e56f69cadfa553"
     },
     "data/oracle-dashboard/manifest.json.gz": {
-      "fileId": "1uCbl15FlcDIjR45wURONHcD8TA2n55-s",
-      "size": 606534,
-      "md5": "76afc49d040f12c85cedf1f081763dfd"
+      "fileId": "1ymizTlsXJksC_8Hy9WLRa20WU0pi46Yb",
+      "size": 604452,
+      "md5": "149b0b8452b745a30b1f002600e3c705"
     },
     "data/oracle-dashboard/months/202601.json.gz": {
       "fileId": "1FxhQOYrb4bZWZ7-PG23dSISQmNdWCvG3",
@@ -309,364 +309,49 @@
       "md5": "bcbb2393a39c1198df75a0af73c6205b"
     },
     "data/oracle-dashboard/months/202606.json.gz": {
-      "fileId": "1GapvUGNECrrmowR7OheRxq3fgqhSoBwB",
-      "size": 13957713,
-      "md5": "4d69d265e49a297b88c3523897ed47cf"
+      "fileId": "1peoGe_S4spdHYuHYReiII4iUmX5yKzPm",
+      "size": 13758080,
+      "md5": "1049b85db4a434c13637125b176eb932"
     },
     "data/oracle-dashboard/months/202607.json.gz": {
-      "fileId": "10Ks-tLJ8vt9JLQbSYTzvn7oqsRSGa7Ud",
-      "size": 10730998,
-      "md5": "53425853f6aad9c54902b41d7134302b"
+      "fileId": "1DwghSRNcCAhjpVH3UbBV-FW2w5f2i-u6",
+      "size": 10504271,
+      "md5": "2b8faf4a3ef2a751e9e4dda0a4a29935"
     },
     "data/oracle-dashboard/months/202608.json.gz": {
-      "fileId": "1GH6ADyDndh5e4YYacEN8-nnnMCf-5qZT",
-      "size": 11355203,
-      "md5": "3b7a9dbd66d793e5c7e8dd5822595060"
+      "fileId": "16rGJjz0c1DDlf2W8-zkIimjaaO6UucJi",
+      "size": 11213490,
+      "md5": "73c4449cf5e8ca8e48343bbf53bf4552"
     },
     "data/oracle-dashboard/months/202609.json.gz": {
-      "fileId": "1paBrhNpAdcb-6oQ5kro38k1OUDk2c83q",
-      "size": 15397162,
-      "md5": "8bb508f8d4398b9f9cd93128b9c51a39"
+      "fileId": "112Kz4hpWXVVZR9rrOBqTL2BS6FP8QgFk",
+      "size": 15347432,
+      "md5": "5c67415f31f846d51435862f6afde12c"
     },
     "data/oracle-dashboard/months/202610.json.gz": {
-      "fileId": "1ikONPHcZGLTdZ0EgUCucDPqxunQXKfwJ",
-      "size": 5804003,
-      "md5": "47aa51be110f95533236b4e689541119"
+      "fileId": "1GayYj_QbNBQrG6SQBjP4y_98kvvQAy4i",
+      "size": 6242035,
+      "md5": "648a73317ca28bf8b4f1e6721ca708d4"
     },
     "data/oracle-dashboard/months/202611.json.gz": {
-      "fileId": "10kQatd66mWIPWsm1SiBnCECnfAIYDQjZ",
-      "size": 1124002,
-      "md5": "1bdcd3295d36acaa7ebe59ce356c9c73"
+      "fileId": "1wYeLpQ3cYYKlYtb1Z2wV5PF3YbRSMF5z",
+      "size": 1185000,
+      "md5": "7f6ca74c672c27d9b25bfcaca373977c"
     },
     "data/oracle-dashboard/months/202612.json.gz": {
-      "fileId": "1iiErilzZIl5TMbWb2G4JKIO_4D2cb00j",
-      "size": 707706,
-      "md5": "98113208f49298cff92e2b8ec4b1a624"
+      "fileId": "1o77nLqSfbTyFTrSk34hbfZU1Rri92uxI",
+      "size": 805350,
+      "md5": "e55c0d22c204fa67a7d998d68a9a9f4d"
     },
     "data/oracle-dashboard/sales-analysis.json.gz": {
-      "fileId": "174L-dQxz4xtBVSelo_6t3Lp4vH8tO3AK",
-      "size": 17117836,
-      "md5": "6c8d5082308d4e1a7e03a3a65096bec5"
+      "fileId": "1ec1tXmJ1yOT9OwliR2vKutQjK32jN1vr",
+      "size": 17248201,
+      "md5": "31d21f415720e3519f1d6ab3f62b203e"
     },
     "data/oracle-dashboard/sandbox-current-booking.json": {
       "fileId": "1z1uSus6B9E94-zhHUNlxNbqmktZ59VtY",
       "size": 4086655,
       "md5": "78651208fee3a241c43d7c1747f632a2"
-    },
-    "data/oracle-dashboard/snapshots/20260908/bsa-watchlist.json.gz": {
-      "fileId": "1leKVFzTp8dwzfpQGw4ym7oNRNvL5nMsQ",
-      "size": 10087260,
-      "md5": "4eb672073038b953231a48c86b5aaeaf"
-    },
-    "data/oracle-dashboard/snapshots/20260908/details/202601.json.gz": {
-      "fileId": "1q0RLKbC1zr9bwKnzn-qZ5s_NwYk9gv18",
-      "size": 54688299,
-      "md5": "869f595a93a9ec3742fa5fdd3b260a91"
-    },
-    "data/oracle-dashboard/snapshots/20260908/details/202602.json.gz": {
-      "fileId": "1UuPuhM4iYI1W4iEngwMWqWbmvT7jUCLY",
-      "size": 50544905,
-      "md5": "0deb9226972f25e0b3899409d8f230e6"
-    },
-    "data/oracle-dashboard/snapshots/20260908/details/202603.json.gz": {
-      "fileId": "1d9q3psgS2rkHa0dQ8Gc2E9WmI2a60MkL",
-      "size": 67935935,
-      "md5": "98fd1d10edfe7f6a01bb7cb6bd41f819"
-    },
-    "data/oracle-dashboard/snapshots/20260908/details/202604.json.gz": {
-      "fileId": "173jAhgybfiBOP0g_az2WSVW6ppqDmYnb",
-      "size": 58701759,
-      "md5": "6777fee41b9dd6da6f78e08271918124"
-    },
-    "data/oracle-dashboard/snapshots/20260908/details/202605.json.gz": {
-      "fileId": "1BdqiOwSisHU3HQ1k6ReBZPi3vgyQluCh",
-      "size": 56215778,
-      "md5": "2349d7c468d6ea1f2d6c43ee43ae4837"
-    },
-    "data/oracle-dashboard/snapshots/20260908/details/202606.json.gz": {
-      "fileId": "1tPeIqdM8_E5jpTjEAI7QljzVG_32mB6O",
-      "size": 75839770,
-      "md5": "69d860d0160dc3a182fc42e04a343abc"
-    },
-    "data/oracle-dashboard/snapshots/20260908/details/202607.json.gz": {
-      "fileId": "1HAZTAE0ejbn1hqs7ab6pisuo3QF6vcjr",
-      "size": 56244360,
-      "md5": "bdd23a17930d82eb32c9e6eafae6b164"
-    },
-    "data/oracle-dashboard/snapshots/20260908/details/202608.json.gz": {
-      "fileId": "148UGvOqH-eZbJH2sbzITPAHSl_TU6F42",
-      "size": 59626125,
-      "md5": "afe483d9db0f7a1e7bd5d9446ced924c"
-    },
-    "data/oracle-dashboard/snapshots/20260908/details/202609.json.gz": {
-      "fileId": "1dnriqQ7ZizRmvVnkCjbVo9n6_n7ENJxZ",
-      "size": 55002833,
-      "md5": "6d3c37ffebd92791154e413c65a1063e"
-    },
-    "data/oracle-dashboard/snapshots/20260908/details/202610.json.gz": {
-      "fileId": "15p_QglvvDJ3RYju7V2T4AmkmhIF2-Ru1",
-      "size": 3459693,
-      "md5": "f55d6e28ef9defeead02061114eefa2b"
-    },
-    "data/oracle-dashboard/snapshots/20260908/details/202611.json.gz": {
-      "fileId": "1OHx2uU3UAWTrApptpQOwh-ZiX-OtwwhJ",
-      "size": 15877,
-      "md5": "da55d160c1beb11d7d908d12eaca0c5a"
-    },
-    "data/oracle-dashboard/snapshots/20260908/details/202612.json.gz": {
-      "fileId": "1ppTU-8fJ7HPumclMQrGoU77Cm-nL_tbU",
-      "size": 7547,
-      "md5": "7f9b1e97da084dcffb068565d598ac27"
-    },
-    "data/oracle-dashboard/snapshots/20260908/lanes/202601.json.gz": {
-      "fileId": "1gm7_nFsCUPUYfoAZ4zWB1rFyr0M2AIu7",
-      "size": 6168098,
-      "md5": "29450dd951f5fb7316b08027aa75e213"
-    },
-    "data/oracle-dashboard/snapshots/20260908/lanes/202602.json.gz": {
-      "fileId": "1_PHIHLYOcTKWrq_0kbsGNjRzo7YrNBYT",
-      "size": 6097692,
-      "md5": "26d169c464b40036df1973b9658ac22d"
-    },
-    "data/oracle-dashboard/snapshots/20260908/lanes/202603.json.gz": {
-      "fileId": "1yQJnyYgdXbeiUqq3xQFOcRQJiOMJUgxT",
-      "size": 7701440,
-      "md5": "cd65ac4631f4e89f5f1cd93b94f8cc34"
-    },
-    "data/oracle-dashboard/snapshots/20260908/lanes/202604.json.gz": {
-      "fileId": "1XYUPFWQHMIDKEHrKWQMHpszRu0jsJFUC",
-      "size": 6509876,
-      "md5": "3e775b7480e91d7f1dd22051499e9896"
-    },
-    "data/oracle-dashboard/snapshots/20260908/lanes/202605.json.gz": {
-      "fileId": "1PsusUcsMqU3DPZAeG8dcLl-szjmlIx25",
-      "size": 6270283,
-      "md5": "0e2000892eb2926ba26e747a632e6982"
-    },
-    "data/oracle-dashboard/snapshots/20260908/lanes/202606.json.gz": {
-      "fileId": "1nHTC4OMpmSDHXlhcAMoLwhhx6ihu6f3e",
-      "size": 8223705,
-      "md5": "5c8f27e9851d8531dfa8c375976c58c8"
-    },
-    "data/oracle-dashboard/snapshots/20260908/lanes/202607.json.gz": {
-      "fileId": "1x2dmXaBELHNuQyK2ix0ug2IxBQNe-COl",
-      "size": 6586024,
-      "md5": "f69d50155a2cfd500c10ebb7eb1f3e1f"
-    },
-    "data/oracle-dashboard/snapshots/20260908/lanes/202608.json.gz": {
-      "fileId": "1IYX5OIHU8HX7w95Ttt__Azay_ih8xvbN",
-      "size": 6954259,
-      "md5": "4be96b92dd610d0d8334c207e09d27b1"
-    },
-    "data/oracle-dashboard/snapshots/20260908/lanes/202609.json.gz": {
-      "fileId": "1Bq6AQ6CiPHbys77HqZUyaabwS0W6KKk-",
-      "size": 8438701,
-      "md5": "4da2299790067a52ae45bd42cb72f103"
-    },
-    "data/oracle-dashboard/snapshots/20260908/lanes/202610.json.gz": {
-      "fileId": "1LJdR3rpZbjdJw_A_9MvugsHDKqYYcish",
-      "size": 1343868,
-      "md5": "dfcad242788bd5d7d1695b948e0345fb"
-    },
-    "data/oracle-dashboard/snapshots/20260908/lanes/202611.json.gz": {
-      "fileId": "1kCBEtBsMYCnCwvfBzNSnqcwcRLF30_2E",
-      "size": 547172,
-      "md5": "fec846bfcecb2ee72eb01c94f6098803"
-    },
-    "data/oracle-dashboard/snapshots/20260908/lanes/202612.json.gz": {
-      "fileId": "1Jj_fkX0uvY6rwP-Q7YkLIktW98BcuAsa",
-      "size": 276880,
-      "md5": "d350dca4bc8f1ea052fe2ea35b1bce52"
-    },
-    "data/oracle-dashboard/snapshots/20260908/manifest.json.gz": {
-      "fileId": "1dXJJHA2T6oUvEyPDe2tfB84pEYNHEimr",
-      "size": 614230,
-      "md5": "6fbc637936f60496b8a30680030a4cca"
-    },
-    "data/oracle-dashboard/snapshots/20260908/months/202601.json.gz": {
-      "fileId": "13Kp7RrDHzXZBPn4yLAGVWnYv_yzfB1eq",
-      "size": 9213960,
-      "md5": "251ae1e32c6c422320af838b360024f2"
-    },
-    "data/oracle-dashboard/snapshots/20260908/months/202602.json.gz": {
-      "fileId": "1jeKEr64i9qaDov6qov8dCPMM7ZnFtZA1",
-      "size": 9131483,
-      "md5": "f2a412911487df01ea18e97fae6ac7c6"
-    },
-    "data/oracle-dashboard/snapshots/20260908/months/202603.json.gz": {
-      "fileId": "1CFrhKPj8FjzYVQ2ib6ed2wFqysEZRBYg",
-      "size": 12269494,
-      "md5": "ae0d3c875e9aebe62551cfec28b3cd97"
-    },
-    "data/oracle-dashboard/snapshots/20260908/months/202604.json.gz": {
-      "fileId": "1cfpumP8K8SswhJal_kMP3yo_jD7655nJ",
-      "size": 10213158,
-      "md5": "c1afb833b9b1aba3fd5d22e66f331b62"
-    },
-    "data/oracle-dashboard/snapshots/20260908/months/202605.json.gz": {
-      "fileId": "1X3CwTQ1Uipc3GsR5eChhqAyH09wJ4wy7",
-      "size": 9865345,
-      "md5": "1a9bcaaaca0a25c2ca0a701f9815c69b"
-    },
-    "data/oracle-dashboard/snapshots/20260908/months/202606.json.gz": {
-      "fileId": "1bB5QvpXH5NZ6cs4F9TQBtZt4nYkajglQ",
-      "size": 13334680,
-      "md5": "3455623974f12758d3172fe57b755682"
-    },
-    "data/oracle-dashboard/snapshots/20260908/months/202607.json.gz": {
-      "fileId": "1VIwddoqs7ldzB7MoK9W7HOz1HuIBWeeT",
-      "size": 10121692,
-      "md5": "74cb74d2599a76f902ea20f0d1439809"
-    },
-    "data/oracle-dashboard/snapshots/20260908/months/202608.json.gz": {
-      "fileId": "1hx1XEmRJRc8v2cXmdPQ8XO1FNp3dcKM1",
-      "size": 10686879,
-      "md5": "342bb94c933d91e1b71dec2d21311349"
-    },
-    "data/oracle-dashboard/snapshots/20260908/months/202609.json.gz": {
-      "fileId": "1zdrsXfEuTdONXrvt2T_E_EgSHUomXR4l",
-      "size": 12346832,
-      "md5": "f2e2da5e7f90cc48ea9a0ef6c2432f00"
-    },
-    "data/oracle-dashboard/snapshots/20260908/months/202610.json.gz": {
-      "fileId": "1weQkgClYzFpAUvSKFe9X1-EOeJ7xFBro",
-      "size": 2091046,
-      "md5": "42664d05a466bb0cae9eb8047e13e003"
-    },
-    "data/oracle-dashboard/snapshots/20260908/months/202611.json.gz": {
-      "fileId": "1Gk7v9I2IM1hvVON_nep-33akp-wUOGRf",
-      "size": 891149,
-      "md5": "5e5594b3796549d084ca8a026791bf9c"
-    },
-    "data/oracle-dashboard/snapshots/20260908/months/202612.json.gz": {
-      "fileId": "1up2bp-28nTpee3fegi_lipY0vwi5d0zm",
-      "size": 366429,
-      "md5": "83f97de9607ba22b555bb03ce0d91011"
-    },
-    "data/oracle-dashboard/snapshots/20260908/unified-quantities.json.gz": {
-      "fileId": "1ZmEA414ZVjgs2jfzk6hT99FGaJC_VYO0",
-      "size": 100224166,
-      "md5": "fde4e497afdd1a04f7318b55aaf79e3e"
-    },
-    "data/oracle-dashboard/snapshots/20260908/unified-quantities/202601.json.gz": {
-      "fileId": "1tXv0V22SszQ7WP8vdho8TkykHFeRIOGx",
-      "size": 11666431,
-      "md5": "0a1f0c25f7a9b45d0467dad2bca107a4"
-    },
-    "data/oracle-dashboard/snapshots/20260908/unified-quantities/202602.json.gz": {
-      "fileId": "1UyWFBZLYL19QNo-i1P4-fIdQJp5lKpq8",
-      "size": 10682398,
-      "md5": "6df10d4d93f59fecd3d9d602b8bc31af"
-    },
-    "data/oracle-dashboard/snapshots/20260908/unified-quantities/202603.json.gz": {
-      "fileId": "1ubVxLNcPKKTugi2VIielbJ7fDKFVG7WQ",
-      "size": 13918179,
-      "md5": "51582698ea1e8ea0340d999b3e8d759f"
-    },
-    "data/oracle-dashboard/snapshots/20260908/unified-quantities/202604.json.gz": {
-      "fileId": "1PEAlGp-Z2tyogcJ97IMvJzQqFArh-xyM",
-      "size": 11946751,
-      "md5": "210418727ae46de7b17fee90fd1d0ed3"
-    },
-    "data/oracle-dashboard/snapshots/20260908/unified-quantities/202605.json.gz": {
-      "fileId": "1oZuaLQXl9YzaLVZLnsI415HvIbYPnVRo",
-      "size": 11381371,
-      "md5": "876574391c2fd2c911f260a5ff48a3d6"
-    },
-    "data/oracle-dashboard/snapshots/20260908/unified-quantities/202606.json.gz": {
-      "fileId": "1g6w9AZmOZNl9DZ-C-Ikr6ppiaGd4QP61",
-      "size": 14973823,
-      "md5": "d7ebd983f54311da410d658651c0d6a6"
-    },
-    "data/oracle-dashboard/snapshots/20260908/unified-quantities/202607.json.gz": {
-      "fileId": "1tHfeEHgdXgvCF6YdVFTODT5PC-Qv773e",
-      "size": 10710711,
-      "md5": "99451c8e46320dd12a6c17529e4f11a7"
-    },
-    "data/oracle-dashboard/snapshots/20260908/unified-quantities/202608.json.gz": {
-      "fileId": "1eMFPEyfV7PCAuhmC7nPdFkr-8QlhscMD",
-      "size": 11306572,
-      "md5": "c852d7875e5b388a512ccf46ff56dfac"
-    },
-    "data/oracle-dashboard/snapshots/20260908/unified-quantities/202609.json.gz": {
-      "fileId": "1MxbG0KXZCSGlYt_Jw5wqVXqJQmH1lA36",
-      "size": 8603044,
-      "md5": "f025c9ef68c9bf9b28fa075d2b821a5e"
-    },
-    "data/oracle-dashboard/snapshots/20260908/unified-quantities/202610.json.gz": {
-      "fileId": "14SwA1Cymj2Ju5moh5VWLcJ7K1ALL0B2g",
-      "size": 363062,
-      "md5": "aa6d7027d637385c812426e14253e1fc"
-    },
-    "data/oracle-dashboard/snapshots/20260908/unified-quantities/202611.json.gz": {
-      "fileId": "1TmUhFzHFBKP4im36u-5ro5dPJy43AnnJ",
-      "size": 147,
-      "md5": "54725194f4a7e16da2cac9733ec004b3"
-    },
-    "data/oracle-dashboard/snapshots/20260908/unified-quantities/202612.json.gz": {
-      "fileId": "19s-WDs8RjXbkICi5Nq_Mh-leUjRjuiVC",
-      "size": 147,
-      "md5": "dab34e32cdf3ee08d9b414e1c648b246"
-    },
-    "data/oracle-dashboard/snapshots/20260908/weekly-trends/202601.json.gz": {
-      "fileId": "1l6SLOZF1uOsBRtKJmI3AZUL7GSDucsCn",
-      "size": 8260832,
-      "md5": "e37ead4b86a336e91e0bd3d248721646"
-    },
-    "data/oracle-dashboard/snapshots/20260908/weekly-trends/202602.json.gz": {
-      "fileId": "11EeArrQsif2KJoWUjFTxPWXjCmwaf7_s",
-      "size": 8192985,
-      "md5": "dd6fba95dc79df1418f4b4a1ae83a0de"
-    },
-    "data/oracle-dashboard/snapshots/20260908/weekly-trends/202603.json.gz": {
-      "fileId": "1fQpi4zgoO0yreQkWNRxj3GQWy5-zt75x",
-      "size": 11113452,
-      "md5": "954ab85759f7cb65a0607a3c0160956e"
-    },
-    "data/oracle-dashboard/snapshots/20260908/weekly-trends/202604.json.gz": {
-      "fileId": "1xUnKZyERXcqRmBdxBUpQKB5JFACX6FuI",
-      "size": 9251688,
-      "md5": "470239daf4abc0ca1ed4a5cfe4a4ad2d"
-    },
-    "data/oracle-dashboard/snapshots/20260908/weekly-trends/202605.json.gz": {
-      "fileId": "1Q3ONccBAoG3UrQWXSQJ3Jwolfs3KjxfN",
-      "size": 8915101,
-      "md5": "39c2f44ffeb2bad47ee7b69e16100b51"
-    },
-    "data/oracle-dashboard/snapshots/20260908/weekly-trends/202606.json.gz": {
-      "fileId": "1U3ZL9KFCrQRLnJa0hDdgNiYl3cgt2fn5",
-      "size": 12146134,
-      "md5": "c9bcc9733d035ba75bf24a9e072ae2d2"
-    },
-    "data/oracle-dashboard/snapshots/20260908/weekly-trends/202607.json.gz": {
-      "fileId": "133GedziznGnBdcXev9OypIbgnw3BUvC7",
-      "size": 9237355,
-      "md5": "ecff8b24edf2730c37e9ebb1a095f991"
-    },
-    "data/oracle-dashboard/snapshots/20260908/weekly-trends/202608.json.gz": {
-      "fileId": "1EvyF9yo202yMPXdoCRu0BekU2o4k7vgQ",
-      "size": 9832363,
-      "md5": "0fc8af182f1d5f091f73cd9fdafa1b7b"
-    },
-    "data/oracle-dashboard/snapshots/20260908/weekly-trends/202609.json.gz": {
-      "fileId": "1cOlhLdUx3ZCC_nX3TIFRLtHLrfJ-MIMP",
-      "size": 11817380,
-      "md5": "e0602f75180d1d4fba4917e4194f373f"
-    },
-    "data/oracle-dashboard/snapshots/20260908/weekly-trends/202610.json.gz": {
-      "fileId": "1eQpLzST6f4cnjonon4PT1r1cXpTK4Yje",
-      "size": 2052678,
-      "md5": "d2c97df11d0c8fc88a385b9fe4a562b1"
-    },
-    "data/oracle-dashboard/snapshots/20260908/weekly-trends/202611.json.gz": {
-      "fileId": "1t179cBAP0ewWf6tyDdXFK5gIeyRmUMBP",
-      "size": 883141,
-      "md5": "4abdaff9026403cb94b108a39aeffc37"
-    },
-    "data/oracle-dashboard/snapshots/20260908/weekly-trends/202612.json.gz": {
-      "fileId": "1CrnlCFo23Zej3glTuUTjqRQ9lvulYZhi",
-      "size": 365921,
-      "md5": "e0bcfe1dd9fe247bacd9493013d51e5a"
     },
     "data/oracle-dashboard/snapshots/20260909/bsa-watchlist.json.gz": {
       "fileId": "1G4vBUCGuR0y8fdxi1Wa3_4fmb8xcuJfu",
@@ -5363,20 +5048,395 @@
       "size": 707256,
       "md5": "011796a80beb1ab4cf8ea6f9d77266b5"
     },
+    "data/oracle-dashboard/snapshots/20260928/bsa-watchlist.json.gz": {
+      "fileId": "1aOuKaACgPUFheqLAMi3hJFV0J3tGTLDo",
+      "size": 9417480,
+      "md5": "9446eee31aa8914e42dd07fb860f5a33"
+    },
+    "data/oracle-dashboard/snapshots/20260928/commodity-evidence/202601.json.gz": {
+      "fileId": "1TAa9_O_Pg5DvvUeXmUpmkI8ztEeiBkq-",
+      "size": 643021,
+      "md5": "ab61c31c44800ed6884eecb366baad84"
+    },
+    "data/oracle-dashboard/snapshots/20260928/commodity-evidence/202602.json.gz": {
+      "fileId": "19kjCBqenvOcv-6i1maGBnGINyUPNgsQB",
+      "size": 606368,
+      "md5": "7835785e13275f3f35d32879036e8626"
+    },
+    "data/oracle-dashboard/snapshots/20260928/commodity-evidence/202603.json.gz": {
+      "fileId": "1Wcgwq9llFTsvWIK9jzfzkax8QdjblYEz",
+      "size": 832447,
+      "md5": "c0be6661c4ff774bffaa194b5642a40b"
+    },
+    "data/oracle-dashboard/snapshots/20260928/commodity-evidence/202604.json.gz": {
+      "fileId": "1yUFgHcJMx4sokGLAMIepeoVIyXQQzJQg",
+      "size": 672970,
+      "md5": "421a2a0c0ea26c23b21bc7e45d58cbd0"
+    },
+    "data/oracle-dashboard/snapshots/20260928/commodity-evidence/202605.json.gz": {
+      "fileId": "1y0RGYWp8VBmB_LAVObTrQPeGCviaRam3",
+      "size": 645435,
+      "md5": "7b01d9f3311f6e8bcd1ff41dfa952c0f"
+    },
+    "data/oracle-dashboard/snapshots/20260928/commodity-evidence/202606.json.gz": {
+      "fileId": "1eJPapAqKpOsffi-BfuyI2BQTgOBfPttM",
+      "size": 812090,
+      "md5": "7ace5aae1d8a26f404a13842a1e54504"
+    },
+    "data/oracle-dashboard/snapshots/20260928/commodity-evidence/202607.json.gz": {
+      "fileId": "14hWeKpSXsX4ZImUjFeJRe7s5c76mc5vS",
+      "size": 588724,
+      "md5": "25f6f9c642b74ac9d1a91a575a6e7983"
+    },
+    "data/oracle-dashboard/snapshots/20260928/commodity-evidence/202608.json.gz": {
+      "fileId": "1WHIn7IjI2WeJlOPQ5zuR6e58stAEdysq",
+      "size": 636965,
+      "md5": "18992c0d0d703b2070124eae0454150b"
+    },
+    "data/oracle-dashboard/snapshots/20260928/commodity-evidence/202609.json.gz": {
+      "fileId": "1w7S4ENrsw-xGnXMEJlUdjLSF5I2dCoDE",
+      "size": 899322,
+      "md5": "f8b12ed020fba77fae0b95cf9bab3c65"
+    },
+    "data/oracle-dashboard/snapshots/20260928/commodity-evidence/202610.json.gz": {
+      "fileId": "1kYRbZm3CW253vroQrKln1wLlrwbYXmlQ",
+      "size": 207015,
+      "md5": "4e895c7fe09f663dd87602bc8f3d778d"
+    },
+    "data/oracle-dashboard/snapshots/20260928/commodity-evidence/202611.json.gz": {
+      "fileId": "1OgWcTmQ1H4qeFlWyBeie3ATh_GCSAmNa",
+      "size": 8371,
+      "md5": "d1d661d561fd3cb899e03e346a0d292c"
+    },
+    "data/oracle-dashboard/snapshots/20260928/commodity-evidence/202612.json.gz": {
+      "fileId": "1j3nOCsxhpI4_wqsK5_fG6CsZZN6ywi2E",
+      "size": 213,
+      "md5": "99c6b498952ad4eb5ecbc9ad85c96a51"
+    },
+    "data/oracle-dashboard/snapshots/20260928/details/202601.json.gz": {
+      "fileId": "1NEWUC3vFJwf9UcGhJDIjAXByttYRUftC",
+      "size": 25012726,
+      "md5": "c8287aeb0e80d647e87f8a077685e1cc"
+    },
+    "data/oracle-dashboard/snapshots/20260928/details/202602.json.gz": {
+      "fileId": "1l0Fkblwkf76yX1Prd0oM3zvxkHrx8uli",
+      "size": 22887131,
+      "md5": "3f2430a57d12d6d3b5c44afb3a203c8f"
+    },
+    "data/oracle-dashboard/snapshots/20260928/details/202603.json.gz": {
+      "fileId": "1ZD2FUwnmbIvo2CkgfRzQPH3iSKgc4AUf",
+      "size": 30653757,
+      "md5": "32367b795693c5ccc261c5e6b343f855"
+    },
+    "data/oracle-dashboard/snapshots/20260928/details/202604.json.gz": {
+      "fileId": "1RD04iR1K67C28OuCop6HQxOlIeY4JofW",
+      "size": 26386813,
+      "md5": "d6adc810aab7763bbf59faaaf2d81ad9"
+    },
+    "data/oracle-dashboard/snapshots/20260928/details/202605.json.gz": {
+      "fileId": "1_AhHjhmnafzfSPxDNT_KRlJZFVxsPyP5",
+      "size": 25271011,
+      "md5": "6b75dd6ebb65591b926275e00e4dbf32"
+    },
+    "data/oracle-dashboard/snapshots/20260928/details/202606.json.gz": {
+      "fileId": "1LI570bD1PPkai5qVfrXeqtZwLdlnGJRg",
+      "size": 33648495,
+      "md5": "16616ebc0f64b2ccfff0c617a24dedc6"
+    },
+    "data/oracle-dashboard/snapshots/20260928/details/202607.json.gz": {
+      "fileId": "1dO7H6KzXEIP7sbzHT7t6vabQtf_g4W0y",
+      "size": 24978519,
+      "md5": "e7db865c6d8652f61008916fb49eb802"
+    },
+    "data/oracle-dashboard/snapshots/20260928/details/202608.json.gz": {
+      "fileId": "19rQ68GrQ_WpUKqxyZ7vyyotDcj8hm3IK",
+      "size": 26882357,
+      "md5": "dddd5759c464e0054dd80399556ba41d"
+    },
+    "data/oracle-dashboard/snapshots/20260928/details/202609.json.gz": {
+      "fileId": "1gg9zsjSqHihCYmMyQoECKnn_tmib8Z8L",
+      "size": 37910078,
+      "md5": "750026020bd0ac9713d86c171c5adf5c"
+    },
+    "data/oracle-dashboard/snapshots/20260928/details/202610.json.gz": {
+      "fileId": "1-KNNgE_f4MLC7GdRivkQb5ZZaAKZUXPr",
+      "size": 8024044,
+      "md5": "f6f975402451af984098dd71fac94db7"
+    },
+    "data/oracle-dashboard/snapshots/20260928/details/202611.json.gz": {
+      "fileId": "1ku8dZr3uNCF6wlpzbZLyoKgpRD41HIWH",
+      "size": 479397,
+      "md5": "1174744287321481c657b417afd0314f"
+    },
+    "data/oracle-dashboard/snapshots/20260928/details/202612.json.gz": {
+      "fileId": "1KPzmrGKCxDSDVUNCC8ypPrahFTmW87cZ",
+      "size": 13127,
+      "md5": "c20260dc1755ba5f6e587dfdf9bd24b0"
+    },
+    "data/oracle-dashboard/snapshots/20260928/lanes/202601.json.gz": {
+      "fileId": "1-lDyr8QCYqkSEgB0N5r7kk-685lAP8Wt",
+      "size": 7160589,
+      "md5": "d2880a29a8b2d39f7562ec43df1b7624"
+    },
+    "data/oracle-dashboard/snapshots/20260928/lanes/202602.json.gz": {
+      "fileId": "1DVy3IYxLWZczgOe_iqetzjFTByML0qKc",
+      "size": 7159511,
+      "md5": "dce9c457fd4950567cd5d1bcc622222f"
+    },
+    "data/oracle-dashboard/snapshots/20260928/lanes/202603.json.gz": {
+      "fileId": "1y-ggypUbkg9Rg8aTD2XHJ8imYg6b18KZ",
+      "size": 9043120,
+      "md5": "7c3f1d64db502342d149dcf711e189b5"
+    },
+    "data/oracle-dashboard/snapshots/20260928/lanes/202604.json.gz": {
+      "fileId": "1EJsv_o89WhevE8YMTrNy-q7Gr9SqWALr",
+      "size": 7670847,
+      "md5": "00ccd1b36b0736b7a4aa9d48c29f8f6d"
+    },
+    "data/oracle-dashboard/snapshots/20260928/lanes/202605.json.gz": {
+      "fileId": "1p3n4GpH951GY2jXXgflmjXI2wIMbfegW",
+      "size": 7407206,
+      "md5": "52ea64232d9d0bab1bc6f51e3485e77d"
+    },
+    "data/oracle-dashboard/snapshots/20260928/lanes/202606.json.gz": {
+      "fileId": "1ZP7r-GQkrisDUsaOHKrWMEh4KTtNj46v",
+      "size": 8586255,
+      "md5": "fc2889b4c7cf8c5ddeeabbb0a4751a57"
+    },
+    "data/oracle-dashboard/snapshots/20260928/lanes/202607.json.gz": {
+      "fileId": "1P5Kj2NdVz0RM0jgzqgs4lwupn6e_c47I",
+      "size": 6965100,
+      "md5": "f033c3886f04d72be375420f17272ce3"
+    },
+    "data/oracle-dashboard/snapshots/20260928/lanes/202608.json.gz": {
+      "fileId": "1ERJ1tAeug6TGMQMVYRWf-QMUcmUYly8r",
+      "size": 7428998,
+      "md5": "ccee707e04c00f21ef96e2f83439eb4f"
+    },
+    "data/oracle-dashboard/snapshots/20260928/lanes/202609.json.gz": {
+      "fileId": "1e0tIpAiUYLsH-iEuEI8XEvF6p6Qk1X2Z",
+      "size": 9889233,
+      "md5": "9ce0485b3c5fe9531ac937374921392e"
+    },
+    "data/oracle-dashboard/snapshots/20260928/lanes/202610.json.gz": {
+      "fileId": "1u-6I_EFohye05yR7C24H3upmMUoU9TE2",
+      "size": 4368443,
+      "md5": "910a41b8cbbfeec35e834f233de70d62"
+    },
+    "data/oracle-dashboard/snapshots/20260928/lanes/202611.json.gz": {
+      "fileId": "1U420KD5mAQ_v2bxBafado3DstoM1_cQk",
+      "size": 712800,
+      "md5": "ac1e36dab54f1b1714bcf3aec276bed0"
+    },
+    "data/oracle-dashboard/snapshots/20260928/lanes/202612.json.gz": {
+      "fileId": "16T1CM_3Ig9js1gp7k8lNYKC-Nd_hoeR4",
+      "size": 467718,
+      "md5": "1f4510f40fece46420ad1c19895ce819"
+    },
+    "data/oracle-dashboard/snapshots/20260928/manifest.json.gz": {
+      "fileId": "1chNJdLYpCliFpSV6_Zc1dyuUEOcodDLS",
+      "size": 604452,
+      "md5": "18d9affef795338fd16cf2a8b9fd573b"
+    },
+    "data/oracle-dashboard/snapshots/20260928/months/202601.json.gz": {
+      "fileId": "1FxhQOYrb4bZWZ7-PG23dSISQmNdWCvG3",
+      "size": 10565057,
+      "md5": "343b0b1292a74efb70f7aa63a20c18a8"
+    },
+    "data/oracle-dashboard/snapshots/20260928/months/202602.json.gz": {
+      "fileId": "1UWucSxBEh0Er8TS83ehJ5nDQ9yvBHNly",
+      "size": 10517678,
+      "md5": "d5a0b7c1f312629206c33ad2f9420842"
+    },
+    "data/oracle-dashboard/snapshots/20260928/months/202603.json.gz": {
+      "fileId": "1XY6gOk-WV7zKTf1oPBY0nV1EAnbp4vs0",
+      "size": 13865676,
+      "md5": "a2aadc5a9f0f51123956343b0705aa63"
+    },
+    "data/oracle-dashboard/snapshots/20260928/months/202604.json.gz": {
+      "fileId": "1MlgRn8-C7YOYJeacju8WUoe3cQazNBtD",
+      "size": 11514470,
+      "md5": "9c1a6bbb2ae5efebff9baf7f39061c05"
+    },
+    "data/oracle-dashboard/snapshots/20260928/months/202605.json.gz": {
+      "fileId": "1vtGjJx5YV9ICMJmzYQRamUe3ztqLrlzm",
+      "size": 11111506,
+      "md5": "bcbb2393a39c1198df75a0af73c6205b"
+    },
+    "data/oracle-dashboard/snapshots/20260928/months/202606.json.gz": {
+      "fileId": "1peoGe_S4spdHYuHYReiII4iUmX5yKzPm",
+      "size": 13758080,
+      "md5": "1049b85db4a434c13637125b176eb932"
+    },
+    "data/oracle-dashboard/snapshots/20260928/months/202607.json.gz": {
+      "fileId": "1DwghSRNcCAhjpVH3UbBV-FW2w5f2i-u6",
+      "size": 10504271,
+      "md5": "2b8faf4a3ef2a751e9e4dda0a4a29935"
+    },
+    "data/oracle-dashboard/snapshots/20260928/months/202608.json.gz": {
+      "fileId": "16rGJjz0c1DDlf2W8-zkIimjaaO6UucJi",
+      "size": 11213490,
+      "md5": "73c4449cf5e8ca8e48343bbf53bf4552"
+    },
+    "data/oracle-dashboard/snapshots/20260928/months/202609.json.gz": {
+      "fileId": "112Kz4hpWXVVZR9rrOBqTL2BS6FP8QgFk",
+      "size": 15347432,
+      "md5": "5c67415f31f846d51435862f6afde12c"
+    },
+    "data/oracle-dashboard/snapshots/20260928/months/202610.json.gz": {
+      "fileId": "1GayYj_QbNBQrG6SQBjP4y_98kvvQAy4i",
+      "size": 6242035,
+      "md5": "648a73317ca28bf8b4f1e6721ca708d4"
+    },
+    "data/oracle-dashboard/snapshots/20260928/months/202611.json.gz": {
+      "fileId": "1wYeLpQ3cYYKlYtb1Z2wV5PF3YbRSMF5z",
+      "size": 1185000,
+      "md5": "7f6ca74c672c27d9b25bfcaca373977c"
+    },
+    "data/oracle-dashboard/snapshots/20260928/months/202612.json.gz": {
+      "fileId": "1o77nLqSfbTyFTrSk34hbfZU1Rri92uxI",
+      "size": 805350,
+      "md5": "e55c0d22c204fa67a7d998d68a9a9f4d"
+    },
+    "data/oracle-dashboard/snapshots/20260928/unified-quantities.json.gz": {
+      "fileId": "1YCrdL_mbmbwS1Iud4atfimF0zneuL1G3",
+      "size": 50193774,
+      "md5": "61538484390ec4ebe606fa0cbe03f6f4"
+    },
+    "data/oracle-dashboard/snapshots/20260928/unified-quantities/202601.json.gz": {
+      "fileId": "1Wb5OXszHLHgSXlii_5yl2fWc_0sfp_lp",
+      "size": 11598998,
+      "md5": "785f9d878258606bb0d2f7f6d3cb1d92"
+    },
+    "data/oracle-dashboard/snapshots/20260928/unified-quantities/202602.json.gz": {
+      "fileId": "1ecFG-4SvjGwhsTsw0KLQ4JQq9O0vaP6C",
+      "size": 10688080,
+      "md5": "0998d63cc239e68f7a0047778da0752b"
+    },
+    "data/oracle-dashboard/snapshots/20260928/unified-quantities/202603.json.gz": {
+      "fileId": "1xzqQEl8wpp8HQUvKbghb89eZXofRBPux",
+      "size": 13917925,
+      "md5": "6a7904c8a7c1294cd243d52bd04f596e"
+    },
+    "data/oracle-dashboard/snapshots/20260928/unified-quantities/202604.json.gz": {
+      "fileId": "1040LuoJlf-umcQec5qx9uflbw3YmqwKw",
+      "size": 11946779,
+      "md5": "f777ee3c9340c473228a36d274834e2a"
+    },
+    "data/oracle-dashboard/snapshots/20260928/unified-quantities/202605.json.gz": {
+      "fileId": "171JxTbzKOJs4jWrcr1U-eoe8zQvjkTqy",
+      "size": 11378246,
+      "md5": "80a7197ed13b9e05517b6662ddd952d0"
+    },
+    "data/oracle-dashboard/snapshots/20260928/unified-quantities/202606.json.gz": {
+      "fileId": "1dy1X2OoyFQo1vC4MTVnSuWO7WRFHK3-0",
+      "size": 14806958,
+      "md5": "7c521411a570855645da1410f6577c7a"
+    },
+    "data/oracle-dashboard/snapshots/20260928/unified-quantities/202607.json.gz": {
+      "fileId": "1zToV6HieNFPNmIbmfd949UDDt4n6Svyn",
+      "size": 10719778,
+      "md5": "df6764e7b5494e1d28756498d931f38b"
+    },
+    "data/oracle-dashboard/snapshots/20260928/unified-quantities/202608.json.gz": {
+      "fileId": "1HocWe7S8ZFjS8e7dMB7xb35AuzmMd2XZ",
+      "size": 11314829,
+      "md5": "fec919c52e08d0af4f4154b790bc48f4"
+    },
+    "data/oracle-dashboard/snapshots/20260928/unified-quantities/202609.json.gz": {
+      "fileId": "11ChSRDlLIMyIjfmdUPqf6mpE2fEZ6bIQ",
+      "size": 15114884,
+      "md5": "61f8fb1d7cb41f96dc36fc367092688c"
+    },
+    "data/oracle-dashboard/snapshots/20260928/unified-quantities/202610.json.gz": {
+      "fileId": "1AlIbcaFKp8q9KDx95_OvCemAG41dNVsn",
+      "size": 2235070,
+      "md5": "8813c519926c175b5027fabcde86496c"
+    },
+    "data/oracle-dashboard/snapshots/20260928/unified-quantities/202611.json.gz": {
+      "fileId": "1_Q3ziL2BvamFq3jfjUtl6WDyZ7eAuzBU",
+      "size": 79712,
+      "md5": "4d2a9de0b1df31988f0e0b972f2098e5"
+    },
+    "data/oracle-dashboard/snapshots/20260928/unified-quantities/202612.json.gz": {
+      "fileId": "1gU80X7NVRNPI7aAJSUvTPT9-UhWFrY7A",
+      "size": 642,
+      "md5": "02c09b0c598ca40aa635bcc6f26d3210"
+    },
+    "data/oracle-dashboard/snapshots/20260928/weekly-trends/202601.json.gz": {
+      "fileId": "1v3pNWsx72ScfZT3kH479Xv_5rYK_mw5p",
+      "size": 8980900,
+      "md5": "b89577ea3bd4be364efb454676216042"
+    },
+    "data/oracle-dashboard/snapshots/20260928/weekly-trends/202602.json.gz": {
+      "fileId": "1k5Vx4KjHI-Xj4jVZQ8FhI05zg_x8ZElI",
+      "size": 8909398,
+      "md5": "e3a029e26ab2c377a47feaed16b84f9f"
+    },
+    "data/oracle-dashboard/snapshots/20260928/weekly-trends/202603.json.gz": {
+      "fileId": "1hhnByXdjT9InnsY66ju6uNguRCXmfflP",
+      "size": 11806978,
+      "md5": "f1a7f4600776a25abea0c143e2350770"
+    },
+    "data/oracle-dashboard/snapshots/20260928/weekly-trends/202604.json.gz": {
+      "fileId": "1IlFz8xDU__9TDh-clpg_9Db_gTvxpWFJ",
+      "size": 9824902,
+      "md5": "051af85ddb2d34d3443ea54125ebe47e"
+    },
+    "data/oracle-dashboard/snapshots/20260928/weekly-trends/202605.json.gz": {
+      "fileId": "1I6Hvslbj7FwQ47YqmihGGkF8uasGkISI",
+      "size": 9459354,
+      "md5": "2792f43a443e7d4af44469c07e89c164"
+    },
+    "data/oracle-dashboard/snapshots/20260928/weekly-trends/202606.json.gz": {
+      "fileId": "1kLwkHwi2xPPclUo5-NwDoCvfsbu3ZV4y",
+      "size": 12568810,
+      "md5": "c596517b353241abd525289f71d7dd2e"
+    },
+    "data/oracle-dashboard/snapshots/20260928/weekly-trends/202607.json.gz": {
+      "fileId": "1q3JvNfuG8FWVTrbSPEO77_Q__o7moXmY",
+      "size": 9614088,
+      "md5": "f9592a9cb6531028722ec7c9b18acdf0"
+    },
+    "data/oracle-dashboard/snapshots/20260928/weekly-trends/202608.json.gz": {
+      "fileId": "1rg9vqvp5BeUbP-pIWE1Ii1Z17ooQKH0T",
+      "size": 10363986,
+      "md5": "88f6b26f388b9a1147ed61e40f7864a8"
+    },
+    "data/oracle-dashboard/snapshots/20260928/weekly-trends/202609.json.gz": {
+      "fileId": "1_asaiezjR7uqek06DgdJrhtSBPuCYzsq",
+      "size": 14351838,
+      "md5": "619e29484e18a5da6ba00b0c61689c99"
+    },
+    "data/oracle-dashboard/snapshots/20260928/weekly-trends/202610.json.gz": {
+      "fileId": "1oDCbEvEdfygARsL3FPvQhFE6_EHtl029",
+      "size": 6088160,
+      "md5": "b2e8675d9fe99a2274b650dca88b8ce6"
+    },
+    "data/oracle-dashboard/snapshots/20260928/weekly-trends/202611.json.gz": {
+      "fileId": "15qWe-dGZRate_VFVgXIYH3Z9rksKXUkm",
+      "size": 1163730,
+      "md5": "b48c4404020c9cda7118ae2bbbb3a2ab"
+    },
+    "data/oracle-dashboard/snapshots/20260928/weekly-trends/202612.json.gz": {
+      "fileId": "1HJpUxIXsTEhVSc3m_2nAg4ZUrWw0eIDy",
+      "size": 804942,
+      "md5": "3dbd414c3c00c87af8c8d0d9235627bd"
+    },
     "data/oracle-dashboard/snapshots/index.json": {
-      "fileId": "1vFKTUyU6G69S9R6JptFsjsSd-aoRbUum",
+      "fileId": "1xihiO1gD_9ecNYHBUhqrKgyaZcSkRMeD",
       "size": 2933,
-      "md5": "56221ea23efc555b1b879bb4ba4a7469"
+      "md5": "e508df0b4e0edefb7d61f95222669f10"
     },
     "data/oracle-dashboard/ts-route-chain.json.gz": {
-      "fileId": "1L_dlm-MKkzXFNgCTaihfoC3idXhwa2d9",
-      "size": 3067138,
-      "md5": "b8df113a8c9ee2f9135608a5fe688338"
+      "fileId": "1-mYp6kpAqFHg9DbUEuoxOCjALnA3E1tA",
+      "size": 3153221,
+      "md5": "bf8279910ff80371ef190d820202b932"
     },
     "data/oracle-dashboard/unified-quantities.json.gz": {
-      "fileId": "1Y_-4TotHuOP8ZA_Z6q0UtcWkDl5QT7V9",
-      "size": 49459140,
-      "md5": "61b0acc0137c27f9ebf3c5f85dfcec55"
+      "fileId": "1YCrdL_mbmbwS1Iud4atfimF0zneuL1G3",
+      "size": 50193774,
+      "md5": "61538484390ec4ebe606fa0cbe03f6f4"
     },
     "data/oracle-dashboard/unified-quantities/202601.json.gz": {
       "fileId": "1Wb5OXszHLHgSXlii_5yl2fWc_0sfp_lp",
@@ -5404,39 +5464,39 @@
       "md5": "80a7197ed13b9e05517b6662ddd952d0"
     },
     "data/oracle-dashboard/unified-quantities/202606.json.gz": {
-      "fileId": "1mgbVU_svO7bIQPG_wYW6M7ziLZfF4PRP",
-      "size": 14811258,
-      "md5": "7ff459db5f86553f52654c092ce796fa"
+      "fileId": "1dy1X2OoyFQo1vC4MTVnSuWO7WRFHK3-0",
+      "size": 14806958,
+      "md5": "7c521411a570855645da1410f6577c7a"
     },
     "data/oracle-dashboard/unified-quantities/202607.json.gz": {
-      "fileId": "1rr3tBLAu2_dcrh73d-AxyW2qn5B9cChA",
-      "size": 10705007,
-      "md5": "f345e3edad52114f3c38e661fe2f9091"
+      "fileId": "1zToV6HieNFPNmIbmfd949UDDt4n6Svyn",
+      "size": 10719778,
+      "md5": "df6764e7b5494e1d28756498d931f38b"
     },
     "data/oracle-dashboard/unified-quantities/202608.json.gz": {
-      "fileId": "1Xk5VUdOiqwqvlTEDdL5zZpVoShB0RvnI",
-      "size": 11306082,
-      "md5": "ff1662efb594442144d90d8750df2910"
+      "fileId": "1HocWe7S8ZFjS8e7dMB7xb35AuzmMd2XZ",
+      "size": 11314829,
+      "md5": "fec919c52e08d0af4f4154b790bc48f4"
     },
     "data/oracle-dashboard/unified-quantities/202609.json.gz": {
-      "fileId": "1amA_eO1CRRF8uAGQuEGGkaknB2EVJaxV",
-      "size": 14516823,
-      "md5": "0b53ef20e0924ef3c7b36e8ca9f8133c"
+      "fileId": "11ChSRDlLIMyIjfmdUPqf6mpE2fEZ6bIQ",
+      "size": 15114884,
+      "md5": "61f8fb1d7cb41f96dc36fc367092688c"
     },
     "data/oracle-dashboard/unified-quantities/202610.json.gz": {
-      "fileId": "1SNysfzuLSwKS53bPiOCSlLPFteTU9NXz",
-      "size": 1995879,
-      "md5": "f2895007ebda8d59c4c4325d500d4d4a"
+      "fileId": "1AlIbcaFKp8q9KDx95_OvCemAG41dNVsn",
+      "size": 2235070,
+      "md5": "8813c519926c175b5027fabcde86496c"
     },
     "data/oracle-dashboard/unified-quantities/202611.json.gz": {
-      "fileId": "1SO3CfQd6vH4lV9Br4_wj3wKAocO22Z4S",
-      "size": 66845,
-      "md5": "082fa92dae612a3af9f98fe41235607c"
+      "fileId": "1_Q3ziL2BvamFq3jfjUtl6WDyZ7eAuzBU",
+      "size": 79712,
+      "md5": "4d2a9de0b1df31988f0e0b972f2098e5"
     },
     "data/oracle-dashboard/unified-quantities/202612.json.gz": {
-      "fileId": "1pIMV9wedoa4UodIcl9MRfYGran9D-3Pw",
-      "size": 762,
-      "md5": "d5c197a02ef5cc98828faedb3f119c35"
+      "fileId": "1gU80X7NVRNPI7aAJSUvTPT9-UhWFrY7A",
+      "size": 642,
+      "md5": "02c09b0c598ca40aa635bcc6f26d3210"
     },
     "data/oracle-dashboard/weekly-trends/202601.json.gz": {
       "fileId": "1v3pNWsx72ScfZT3kH479Xv_5rYK_mw5p",
@@ -5464,44 +5524,44 @@
       "md5": "2792f43a443e7d4af44469c07e89c164"
     },
     "data/oracle-dashboard/weekly-trends/202606.json.gz": {
-      "fileId": "1Q5gYtjZcdDanQ_ce-sn1Aw8j7DuePUbL",
-      "size": 12768381,
-      "md5": "4a79f4ec52cf71587d7030b22683e1f5"
+      "fileId": "1kLwkHwi2xPPclUo5-NwDoCvfsbu3ZV4y",
+      "size": 12568810,
+      "md5": "c596517b353241abd525289f71d7dd2e"
     },
     "data/oracle-dashboard/weekly-trends/202607.json.gz": {
-      "fileId": "1kArpDmGUHBZezECYy8knZ-OsTrHlDCWV",
-      "size": 9841758,
-      "md5": "79ce34952fe2545d3634945c5a514f3a"
+      "fileId": "1q3JvNfuG8FWVTrbSPEO77_Q__o7moXmY",
+      "size": 9614088,
+      "md5": "f9592a9cb6531028722ec7c9b18acdf0"
     },
     "data/oracle-dashboard/weekly-trends/202608.json.gz": {
-      "fileId": "1jI8XzNeIKHZtf6VQfKRJeXAVaR8paM0k",
-      "size": 10504218,
-      "md5": "45b78449544b6c6dd6b2cb28bd160f87"
+      "fileId": "1rg9vqvp5BeUbP-pIWE1Ii1Z17ooQKH0T",
+      "size": 10363986,
+      "md5": "88f6b26f388b9a1147ed61e40f7864a8"
     },
     "data/oracle-dashboard/weekly-trends/202609.json.gz": {
-      "fileId": "1uoe0auX08z3Agaq7eu6oQZ7I4hEZOdVI",
-      "size": 14450454,
-      "md5": "3b9e2155a9b79a697d9c28da22468ee0"
+      "fileId": "1_asaiezjR7uqek06DgdJrhtSBPuCYzsq",
+      "size": 14351838,
+      "md5": "619e29484e18a5da6ba00b0c61689c99"
     },
     "data/oracle-dashboard/weekly-trends/202610.json.gz": {
-      "fileId": "1aVw9HNx6FMi3FtSdmPJvyql2PDP9yxsk",
-      "size": 5677457,
-      "md5": "9c809bfb01950bb4fe791b400e5a7640"
+      "fileId": "1oDCbEvEdfygARsL3FPvQhFE6_EHtl029",
+      "size": 6088160,
+      "md5": "b2e8675d9fe99a2274b650dca88b8ce6"
     },
     "data/oracle-dashboard/weekly-trends/202611.json.gz": {
-      "fileId": "10h_d0m1aOS_jfPmjGIywFrOs4nGHIYI4",
-      "size": 1104577,
-      "md5": "16a78a03e2fce0091aa0806cd6a176b1"
+      "fileId": "15qWe-dGZRate_VFVgXIYH3Z9rksKXUkm",
+      "size": 1163730,
+      "md5": "b48c4404020c9cda7118ae2bbbb3a2ab"
     },
     "data/oracle-dashboard/weekly-trends/202612.json.gz": {
-      "fileId": "1yw1FtVlhYsvrhEY0hio_ZUT60_302GOX",
-      "size": 707256,
-      "md5": "011796a80beb1ab4cf8ea6f9d77266b5"
+      "fileId": "1HJpUxIXsTEhVSc3m_2nAg4ZUrWw0eIDy",
+      "size": 804942,
+      "md5": "3dbd414c3c00c87af8c8d0d9235627bd"
     },
     "rob-max.json": {
-      "fileId": "1lfUbkeE3g9EDnrHiYPcpCTLvYmvozisC",
-      "size": 4146134,
-      "md5": "7e342f19a4bcd38c3bb5c4886ab0a8c7"
+      "fileId": "1T4IL5f2md5lZznbqy7he7Duz4lroJH8j",
+      "size": 4151351,
+      "md5": "40fdf383f25597af56ac7ae6feaab76d"
     }
   }
 }
