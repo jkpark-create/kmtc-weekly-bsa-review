@@ -298,6 +298,13 @@ async function loadApplication(index, user) {
     user,
     allowedDomain: ALLOWED_DOMAIN,
     fetchProtectedAsset,
+    async getAssetIdentity(input) {
+      const key = assetKeyForUrl(input);
+      if (!key || !useProtectedDrive) return null;
+      const protectedIndex = await loadProtectedIndex();
+      const asset = protectedIndex.files?.[key];
+      return asset ? Object.freeze({ fileId: asset.fileId, md5: asset.md5, size: asset.size }) : null;
+    },
     logout() {
       clearSession();
       sessionStorage.removeItem(RETURN_PATH_KEY);
