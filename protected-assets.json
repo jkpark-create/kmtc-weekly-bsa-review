@@ -1,15 +1,15 @@
 {
   "format": "kmtc-protected-assets-v1",
-  "generatedAt": "2026-10-15T12:14:28.251986+09:00",
+  "generatedAt": "2026-10-15T18:10:22+0900",
   "auth": {
     "provider": "google",
     "allowedDomain": "ekmtc.com"
   },
   "driveFolderId": "1lccizv8st6zJ-1mFSAvHZlx5kF8dYH7r",
   "appEntry": {
-    "fileId": "1YwfYbqX2OrjflQXHG0plHOn07fX-eC01",
-    "size": 3220737,
-    "md5": "3bb93e83082797d224ab0d3820a0f612",
+    "fileId": "1wWTH6Qy-A_ReIw5VJIZGnL0wVOquH8Fe",
+    "size": 3220813,
+    "md5": "e13909c61127e0e0ab95dd61c902dd8f",
     "localPath": "assets/index-CHROAF2M.js"
   },
   "files": {
