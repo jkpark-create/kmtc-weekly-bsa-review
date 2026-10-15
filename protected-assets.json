@@ -1,15 +1,15 @@
 {
   "format": "kmtc-protected-assets-v1",
-  "generatedAt": "2026-10-15T00:19:40+0900",
+  "generatedAt": "2026-10-15T12:14:28.251986+09:00",
   "auth": {
     "provider": "google",
     "allowedDomain": "ekmtc.com"
   },
   "driveFolderId": "1lccizv8st6zJ-1mFSAvHZlx5kF8dYH7r",
   "appEntry": {
-    "fileId": "1pqJ2Cyp9deo0hr1dL1sd4pnUuIVMhOWn",
-    "size": 3197308,
-    "md5": "7005acbf39237ab0c41a04e247517123",
+    "fileId": "1YwfYbqX2OrjflQXHG0plHOn07fX-eC01",
+    "size": 3220737,
+    "md5": "3bb93e83082797d224ab0d3820a0f612",
     "localPath": "assets/index-CHROAF2M.js"
   },
   "files": {
@@ -6939,9 +6939,9 @@
       "md5": "0c9f4c83538d7f60f193a0e246284506"
     },
     "data/oracle-dashboard/ts-monitor.json": {
-      "fileId": "1xlK1L6-2zjabtObGRxYG2tyAXvNQHZyz",
-      "size": 4118108,
-      "md5": "f46475ccd7d2cd23a0828d76abca6782"
+      "fileId": "1m_PeO3rQXnTHOobO462uLqFFbukvN82Y",
+      "size": 13271621,
+      "md5": "ce1395f97d3331f27945a4b86562ada4"
     },
     "data/oracle-dashboard/ts-route-chain.json.gz": {
       "fileId": "1-FUZ12JV3n3hpVtCtlEu28woL7M2oLaL",
@@ -7077,6 +7077,11 @@
       "fileId": "1lLZuxj1mHa641UM5pd-iE1wn08Vfvp-K",
       "size": 4119144,
       "md5": "75b20b2d26712d2995abceb125e98018"
+    },
+    "data/oracle-dashboard/ts-monitor.json.gz": {
+      "fileId": "1GMxGvB_YvQt_7na52giPwkyiFcU-Qpy4",
+      "size": 994713,
+      "md5": "3ea961a08e6db0e0c0d224ddaaa90c0d"
     }
   }
 }
