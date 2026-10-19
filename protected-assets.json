@@ -1,16 +1,16 @@
 {
   "format": "kmtc-protected-assets-v1",
-  "generatedAt": "2026-10-18T14:56:48+0900",
+  "generatedAt": "2026-10-19T15:32:28+0900",
   "auth": {
     "provider": "google",
     "allowedDomain": "ekmtc.com"
   },
   "driveFolderId": "1lccizv8st6zJ-1mFSAvHZlx5kF8dYH7r",
   "appEntry": {
-    "fileId": "1yeODLPqHSFgaTileGmLr-YmKrTFymeCs",
-    "size": 3208797,
-    "md5": "8ad237ea560879687d439145d3850ac4",
-    "localPath": "assets/index-Brf7lvgo.js"
+    "fileId": "1aocRQ1ZB3aEXT9NN_hL4mNtKQLcD8nHW",
+    "size": 3208964,
+    "md5": "b141a7cf7bd77d6f46b0cae9c70d4699",
+    "localPath": "assets/index-BYLf2bke.js"
   },
   "files": {
     "assets/help/integrated-lookup-lower.webp": {
