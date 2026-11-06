@@ -1,3 +1,49 @@
+// BEGIN latest generation reader
+// Pure reader used verbatim by the real auth-loader candidate.
+function createLatestGenerationReader({ readFile, crypto, onBlocked = () => {} }) {
+  const fail = (message) => { onBlocked(message); throw new Error(message); };
+  const policy = (index) => {
+    const p = index?.latestPublication;
+    if (!p) return null; // Existing content-versioned, immutable publication only.
+    if (p.protocol !== 'stable-id-latest-v1' || p.state !== 'ready'
+        || !/^[A-Za-z0-9_-]{16,128}$/.test(p.generation || '') || !p.controlFileId) {
+      return fail('Publication protocol is not ready');
+    }
+    return p;
+  };
+  async function assertReady(index) {
+    const p = policy(index);
+    if (!p) return;
+    let control;
+    try {
+      const response = await readFile(p.controlFileId, { cache: 'no-store' });
+      if (!response.ok) return fail('Publication control unavailable');
+      control = await response.json();
+    } catch (error) { return fail('Publication control could not be verified'); }
+    if (control?.protocol !== p.protocol || control?.state !== 'ready' || control?.generation !== p.generation) {
+      return fail('Publication changed or is being updated; reload required');
+    }
+  }
+  async function read(index, entry, options = {}) {
+    const p = policy(index);
+    if (!p) return readFile(entry.fileId, options);
+    if (!/^[a-f0-9]{64}$/.test(entry.sha256 || '') || !Number.isSafeInteger(entry.size) || entry.size < 0) {
+      return fail('Missing exact publication body proof');
+    }
+    await assertReady(index);
+    const response = await readFile(entry.fileId, { ...options, cache: 'no-store' });
+    if (!response.ok) return fail('Publication body unavailable');
+    const bytes = await response.arrayBuffer();
+    const actual = Array.from(new Uint8Array(await crypto.subtle.digest('SHA-256', bytes)),
+      b => b.toString(16).padStart(2, '0')).join('');
+    if (bytes.byteLength !== entry.size || actual !== entry.sha256) return fail('Publication body changed');
+    await assertReady(index);
+    return new Response(bytes, { status: response.status, statusText: response.statusText, headers: response.headers });
+  }
+  return Object.freeze({ assertReady, read });
+}
+
+// END latest generation reader
 const GOOGLE_CLIENT_ID = '409330651463-giie223egsskdq10etn642gjtron1hq5.apps.googleusercontent.com';
 const ALLOWED_DOMAIN = 'ekmtc.com';
 const DRIVE_SCOPE = 'https://www.googleapis.com/auth/drive.readonly';
@@ -259,7 +305,7 @@ async function fetchDriveFile(fileId, options = {}) {
         ...options,
         // Published file IDs are content-versioned and immutable. Reusing the
         // browser's private HTTP cache avoids downloading the same release again.
-        cache: 'force-cache',
+        cache: options.cache || 'force-cache',
         headers: { ...(options.headers || {}), Authorization: `Bearer ${token}` }
       });
     } catch (error) {
@@ -279,6 +325,20 @@ async function fetchDriveFile(fileId, options = {}) {
   throw new Error('Google Drive request exhausted without a response.');
 }
 
+function showPublicationPause() {
+  let notice = document.getElementById('kmtc-publication-pause');
+  if (!notice) {
+    notice = document.createElement('div');
+    notice.id = 'kmtc-publication-pause'; notice.setAttribute('role', 'alert');
+    notice.style.cssText = "position:fixed;top:0;left:0;right:0;z-index:2147483647;padding:12px;background:#fff3cc;color:#342800;font:14px 'Nanum Gothic',sans-serif";
+    document.body.prepend(notice);
+  }
+  notice.textContent = '데이터가 갱신 중이거나 새 버전으로 변경됐습니다. 기존 표시값은 이전 검증본입니다. 잠시 후 새로고침해 주세요.';
+}
+const latestGenerationReader = createLatestGenerationReader({
+  readFile: fetchDriveFile, crypto: globalThis.crypto, onBlocked: showPublicationPause
+});
+
 async function fetchProtectedAsset(input, options = {}) {
   const key = assetKeyForUrl(input);
   if (!key || !useProtectedDrive) return nativeFetch(input, options);
@@ -290,7 +350,7 @@ async function fetchProtectedAsset(input, options = {}) {
       headers: { 'Content-Type': 'application/json' }
     });
   }
-  return fetchDriveFile(entry.fileId, options);
+  return latestGenerationReader.read(index, entry, options);
 }
 
 async function loadApplication(index, user) {
@@ -302,6 +362,7 @@ async function loadApplication(index, user) {
       const key = assetKeyForUrl(input);
       if (!key || !useProtectedDrive) return null;
       const protectedIndex = await loadProtectedIndex();
+      await latestGenerationReader.assertReady(protectedIndex);
       const asset = protectedIndex.files?.[key];
       return asset ? Object.freeze({ fileId: asset.fileId, md5: asset.md5, size: asset.size }) : null;
     },
@@ -319,7 +380,7 @@ async function loadApplication(index, user) {
     return;
   }
 
-  const response = await fetchDriveFile(index.appEntry.fileId);
+  const response = await latestGenerationReader.read(index, index.appEntry);
   if (!response.ok) throw new Error(loginCopy('protectedAppError', { status: response.status }));
   const source = await response.blob();
   const moduleUrl = URL.createObjectURL(new Blob([source], { type: 'text/javascript' }));
