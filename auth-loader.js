@@ -26,7 +26,10 @@ function createLatestGenerationReader({ readFile, crypto, onBlocked = () => {} }
   }
   async function read(index, entry, options = {}) {
     const p = policy(index);
-    if (!p) return readFile(entry.fileId, options);
+    // A single-file application release can opt into exact body verification
+    // while all business-data descriptors remain unchanged. No reader gate or
+    // multi-file atomicity is claimed for this app-only compatibility path.
+    if (!p && !entry.sha256) return readFile(entry.fileId, options);
     if (!/^[a-f0-9]{64}$/.test(entry.sha256 || '') || !Number.isSafeInteger(entry.size) || entry.size < 0) {
       return fail('Missing exact publication body proof');
     }
